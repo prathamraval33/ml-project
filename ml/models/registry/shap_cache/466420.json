@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.2291,
+  "predicted_revenue_usd": 30373704.14,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 200000000.0,
+      "shap_value": 1.1291,
+      "abs_shap": 1.1291
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.823,
+      "abs_shap": 0.823
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.378,
+      "abs_shap": 0.378
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.3175,
+      "abs_shap": 0.3175
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.2188,
+      "abs_shap": 0.2188
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2171,
+      "abs_shap": 0.2171
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.11382792951231,
+      "shap_value": 0.1377,
+      "abs_shap": 0.1377
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0982,
+      "abs_shap": 0.0982
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0901,
+      "abs_shap": 0.0901
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 13.0,
+      "shap_value": -0.086,
+      "abs_shap": 0.086
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0796,
+      "abs_shap": 0.0796
+    },
+    {
+      "feature": "runtime",
+      "value": 206.0,
+      "shap_value": 0.0764,
+      "abs_shap": 0.0764
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0643,
+      "abs_shap": 0.0643
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0396,
+      "abs_shap": 0.0396
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0318,
+      "abs_shap": 0.0318
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0295,
+      "abs_shap": 0.0295
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.025,
+      "abs_shap": 0.025
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 153123694.07692307,
+      "shap_value": -0.0246,
+      "abs_shap": 0.0246
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0154,
+      "abs_shap": 0.0154
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.013,
+      "abs_shap": 0.013
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0096,
+      "abs_shap": 0.0096
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.007,
+      "abs_shap": 0.007
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0053,
+      "abs_shap": 0.0053
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0036,
+      "abs_shap": 0.0036
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0027,
+      "abs_shap": 0.0027
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": -0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": -0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 200000000.0,
+      "shap_value": 1.1291,
+      "abs_shap": 1.1291
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2171,
+      "abs_shap": 0.2171
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.11382792951231,
+      "shap_value": 0.1377,
+      "abs_shap": 0.1377
+    },
+    {
+      "feature": "runtime",
+      "value": 206.0,
+      "shap_value": 0.0764,
+      "abs_shap": 0.0764
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0643,
+      "abs_shap": 0.0643
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.823,
+      "abs_shap": 0.823
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.378,
+      "abs_shap": 0.378
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.3175,
+      "abs_shap": 0.3175
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.2188,
+      "abs_shap": 0.2188
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0982,
+      "abs_shap": 0.0982
+    }
+  ],
+  "movie_id": 466420,
+  "title": "Killers of the Flower Moon"
+}

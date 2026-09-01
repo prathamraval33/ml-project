@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.5974,
+  "predicted_revenue_usd": 119328543.92,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 80000000.0,
+      "shap_value": 1.257,
+      "abs_shap": 1.257
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.7687,
+      "abs_shap": 0.7687
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 5.0,
+      "shap_value": -0.312,
+      "abs_shap": 0.312
+    },
+    {
+      "feature": "runtime",
+      "value": 94.0,
+      "shap_value": -0.2212,
+      "abs_shap": 0.2212
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 32.0,
+      "shap_value": 0.1989,
+      "abs_shap": 0.1989
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 303590979.5,
+      "shap_value": 0.1939,
+      "abs_shap": 0.1939
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.197537205138154,
+      "shap_value": 0.1493,
+      "abs_shap": 0.1493
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0901,
+      "abs_shap": 0.0901
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0868,
+      "abs_shap": 0.0868
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 428242279.40625,
+      "shap_value": 0.0851,
+      "abs_shap": 0.0851
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.0763,
+      "abs_shap": 0.0763
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0576,
+      "abs_shap": 0.0576
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0424,
+      "abs_shap": 0.0424
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 6.0,
+      "shap_value": 0.0347,
+      "abs_shap": 0.0347
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0279,
+      "abs_shap": 0.0279
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0261,
+      "abs_shap": 0.0261
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0259,
+      "abs_shap": 0.0259
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0169,
+      "abs_shap": 0.0169
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0154,
+      "abs_shap": 0.0154
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0145,
+      "abs_shap": 0.0145
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0099,
+      "abs_shap": 0.0099
+    },
+    {
+      "feature": "release_month",
+      "value": 3.0,
+      "shap_value": 0.0079,
+      "abs_shap": 0.0079
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0069,
+      "abs_shap": 0.0069
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0054,
+      "abs_shap": 0.0054
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.005,
+      "abs_shap": 0.005
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0038,
+      "abs_shap": 0.0038
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": -0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 80000000.0,
+      "shap_value": 1.257,
+      "abs_shap": 1.257
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 32.0,
+      "shap_value": 0.1989,
+      "abs_shap": 0.1989
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 303590979.5,
+      "shap_value": 0.1939,
+      "abs_shap": 0.1939
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.197537205138154,
+      "shap_value": 0.1493,
+      "abs_shap": 0.1493
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0868,
+      "abs_shap": 0.0868
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.7687,
+      "abs_shap": 0.7687
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 5.0,
+      "shap_value": -0.312,
+      "abs_shap": 0.312
+    },
+    {
+      "feature": "runtime",
+      "value": 94.0,
+      "shap_value": -0.2212,
+      "abs_shap": 0.2212
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0901,
+      "abs_shap": 0.0901
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0261,
+      "abs_shap": 0.0261
+    }
+  ],
+  "movie_id": 1011985,
+  "title": "Kung Fu Panda 4"
+}

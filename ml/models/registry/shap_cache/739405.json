@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.0473,
+  "predicted_revenue_usd": 68839804.87,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6535,
+      "abs_shap": 0.6535
+    },
+    {
+      "feature": "budget",
+      "value": 50000000.0,
+      "shap_value": 0.3621,
+      "abs_shap": 0.3621
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1973,
+      "abs_shap": 0.1973
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 23.0,
+      "shap_value": 0.1845,
+      "abs_shap": 0.1845
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.1207,
+      "abs_shap": 0.1207
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1039,
+      "abs_shap": 0.1039
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.0888,
+      "abs_shap": 0.0888
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0875,
+      "abs_shap": 0.0875
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0713,
+      "abs_shap": 0.0713
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0696,
+      "abs_shap": 0.0696
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.72753358339242,
+      "shap_value": 0.0676,
+      "abs_shap": 0.0676
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0552,
+      "abs_shap": 0.0552
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 242564379.2,
+      "shap_value": 0.0509,
+      "abs_shap": 0.0509
+    },
+    {
+      "feature": "runtime",
+      "value": 113.0,
+      "shap_value": 0.0414,
+      "abs_shap": 0.0414
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 10.0,
+      "shap_value": 0.0374,
+      "abs_shap": 0.0374
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0214,
+      "abs_shap": 0.0214
+    },
+    {
+      "feature": "release_month",
+      "value": 1.0,
+      "shap_value": -0.017,
+      "abs_shap": 0.017
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.015,
+      "abs_shap": 0.015
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0144,
+      "abs_shap": 0.0144
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0128,
+      "abs_shap": 0.0128
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 118557178.6521739,
+      "shap_value": 0.0113,
+      "abs_shap": 0.0113
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0059,
+      "abs_shap": 0.0059
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0054,
+      "abs_shap": 0.0054
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0026,
+      "abs_shap": 0.0026
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0025,
+      "abs_shap": 0.0025
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 50000000.0,
+      "shap_value": 0.3621,
+      "abs_shap": 0.3621
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1973,
+      "abs_shap": 0.1973
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 23.0,
+      "shap_value": 0.1845,
+      "abs_shap": 0.1845
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1039,
+      "abs_shap": 0.1039
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0713,
+      "abs_shap": 0.0713
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6535,
+      "abs_shap": 0.6535
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.1207,
+      "abs_shap": 0.1207
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.0888,
+      "abs_shap": 0.0888
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0875,
+      "abs_shap": 0.0875
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0214,
+      "abs_shap": 0.0214
+    }
+  ],
+  "movie_id": 739405,
+  "title": "Operation Fortune: Ruse de Guerre"
+}

@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.4142,
+  "predicted_revenue_usd": 36549109.38,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7559,
+      "abs_shap": 0.7559
+    },
+    {
+      "feature": "budget",
+      "value": 72000000.0,
+      "shap_value": 0.5823,
+      "abs_shap": 0.5823
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 2415472.0,
+      "shap_value": -0.401,
+      "abs_shap": 0.401
+    },
+    {
+      "feature": "production_company_count",
+      "value": 10.0,
+      "shap_value": -0.2566,
+      "abs_shap": 0.2566
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2311,
+      "abs_shap": 0.2311
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1956,
+      "abs_shap": 0.1956
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.151,
+      "abs_shap": 0.151
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.09217669086922,
+      "shap_value": 0.1124,
+      "abs_shap": 0.1124
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0598,
+      "abs_shap": 0.0598
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0473,
+      "abs_shap": 0.0473
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0403,
+      "abs_shap": 0.0403
+    },
+    {
+      "feature": "runtime",
+      "value": 112.0,
+      "shap_value": 0.0324,
+      "abs_shap": 0.0324
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0257,
+      "abs_shap": 0.0257
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0253,
+      "abs_shap": 0.0253
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0226,
+      "abs_shap": 0.0226
+    },
+    {
+      "feature": "release_month",
+      "value": 2.0,
+      "shap_value": -0.0222,
+      "abs_shap": 0.0222
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0214,
+      "abs_shap": 0.0214
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0098,
+      "abs_shap": 0.0098
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0087,
+      "abs_shap": 0.0087
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0058,
+      "abs_shap": 0.0058
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": 0.0057,
+      "abs_shap": 0.0057
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0054,
+      "abs_shap": 0.0054
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0042,
+      "abs_shap": 0.0042
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0042,
+      "abs_shap": 0.0042
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0027,
+      "abs_shap": 0.0027
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0021,
+      "abs_shap": 0.0021
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 72000000.0,
+      "shap_value": 0.5823,
+      "abs_shap": 0.5823
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2311,
+      "abs_shap": 0.2311
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.151,
+      "abs_shap": 0.151
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.09217669086922,
+      "shap_value": 0.1124,
+      "abs_shap": 0.1124
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0598,
+      "abs_shap": 0.0598
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7559,
+      "abs_shap": 0.7559
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 2415472.0,
+      "shap_value": -0.401,
+      "abs_shap": 0.401
+    },
+    {
+      "feature": "production_company_count",
+      "value": 10.0,
+      "shap_value": -0.2566,
+      "abs_shap": 0.2566
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1956,
+      "abs_shap": 0.1956
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0253,
+      "abs_shap": 0.0253
+    }
+  ],
+  "movie_id": 643215,
+  "title": "Asterix & Obelix: The Middle Kingdom"
+}

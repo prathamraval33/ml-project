@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 20.0433,
+  "predicted_revenue_usd": 506609493.82,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 160000000.0,
+      "shap_value": 1.6822,
+      "abs_shap": 1.6822
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.5352,
+      "abs_shap": 0.5352
+    },
+    {
+      "feature": "runtime",
+      "value": 145.0,
+      "shap_value": 0.4285,
+      "abs_shap": 0.4285
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.8906843794481,
+      "shap_value": 0.1894,
+      "abs_shap": 0.1894
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.1733,
+      "abs_shap": 0.1733
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1716,
+      "abs_shap": 0.1716
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 618997039.25,
+      "shap_value": 0.1525,
+      "abs_shap": 0.1525
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 316263750.6666667,
+      "shap_value": 0.0786,
+      "abs_shap": 0.0786
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0732,
+      "abs_shap": 0.0732
+    },
+    {
+      "feature": "release_month",
+      "value": 5.0,
+      "shap_value": 0.0677,
+      "abs_shap": 0.0677
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.064,
+      "abs_shap": 0.064
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0599,
+      "abs_shap": 0.0599
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0538,
+      "abs_shap": 0.0538
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0364,
+      "abs_shap": 0.0364
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 3.0,
+      "shap_value": 0.0361,
+      "abs_shap": 0.0361
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0345,
+      "abs_shap": 0.0345
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0234,
+      "abs_shap": 0.0234
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0231,
+      "abs_shap": 0.0231
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0219,
+      "abs_shap": 0.0219
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0189,
+      "abs_shap": 0.0189
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0148,
+      "abs_shap": 0.0148
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0102,
+      "abs_shap": 0.0102
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0051,
+      "abs_shap": 0.0051
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "release_quarter",
+      "value": 2.0,
+      "shap_value": 0.0044,
+      "abs_shap": 0.0044
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 160000000.0,
+      "shap_value": 1.6822,
+      "abs_shap": 1.6822
+    },
+    {
+      "feature": "runtime",
+      "value": 145.0,
+      "shap_value": 0.4285,
+      "abs_shap": 0.4285
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.8906843794481,
+      "shap_value": 0.1894,
+      "abs_shap": 0.1894
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.1733,
+      "abs_shap": 0.1733
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1716,
+      "abs_shap": 0.1716
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.5352,
+      "abs_shap": 0.5352
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0732,
+      "abs_shap": 0.0732
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.064,
+      "abs_shap": 0.064
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0599,
+      "abs_shap": 0.0599
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0538,
+      "abs_shap": 0.0538
+    }
+  ],
+  "movie_id": 653346,
+  "title": "Kingdom of the Planet of the Apes"
+}

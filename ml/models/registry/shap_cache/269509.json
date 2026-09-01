@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.3862,
+  "predicted_revenue_usd": 13074958.73,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8496,
+      "abs_shap": 0.8496
+    },
+    {
+      "feature": "budget",
+      "value": 10000000.0,
+      "shap_value": -0.358,
+      "abs_shap": 0.358
+    },
+    {
+      "feature": "runtime",
+      "value": 89.0,
+      "shap_value": -0.2893,
+      "abs_shap": 0.2893
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.231,
+      "abs_shap": 0.231
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1682,
+      "abs_shap": 0.1682
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.1673,
+      "abs_shap": 0.1673
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.1457,
+      "abs_shap": 0.1457
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1174,
+      "abs_shap": 0.1174
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1138,
+      "abs_shap": 0.1138
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0683,
+      "abs_shap": 0.0683
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0582,
+      "abs_shap": 0.0582
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0562,
+      "abs_shap": 0.0562
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.118095750958314,
+      "shap_value": -0.0433,
+      "abs_shap": 0.0433
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0309,
+      "abs_shap": 0.0309
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0288,
+      "abs_shap": 0.0288
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0266,
+      "abs_shap": 0.0266
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": 0.0249,
+      "abs_shap": 0.0249
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0239,
+      "abs_shap": 0.0239
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0143,
+      "abs_shap": 0.0143
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0141,
+      "abs_shap": 0.0141
+    },
+    {
+      "feature": "production_company_count",
+      "value": 8.0,
+      "shap_value": -0.0129,
+      "abs_shap": 0.0129
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": -0.0125,
+      "abs_shap": 0.0125
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0049,
+      "abs_shap": 0.0049
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0006,
+      "abs_shap": 0.0006
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": -0.0006,
+      "abs_shap": 0.0006
+    },
+    {
+      "feature": "release_month",
+      "value": 9.0,
+      "shap_value": -0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.231,
+      "abs_shap": 0.231
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.1457,
+      "abs_shap": 0.1457
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1174,
+      "abs_shap": 0.1174
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1138,
+      "abs_shap": 0.1138
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0582,
+      "abs_shap": 0.0582
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8496,
+      "abs_shap": 0.8496
+    },
+    {
+      "feature": "budget",
+      "value": 10000000.0,
+      "shap_value": -0.358,
+      "abs_shap": 0.358
+    },
+    {
+      "feature": "runtime",
+      "value": 89.0,
+      "shap_value": -0.2893,
+      "abs_shap": 0.2893
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1682,
+      "abs_shap": 0.1682
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.1673,
+      "abs_shap": 0.1673
+    }
+  ],
+  "movie_id": 269509,
+  "title": "The Canterville Ghost"
+}

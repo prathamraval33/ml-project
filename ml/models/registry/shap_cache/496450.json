@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.2799,
+  "predicted_revenue_usd": 86865454.14,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 86000000.0,
+      "shap_value": 1.1214,
+      "abs_shap": 1.1214
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7425,
+      "abs_shap": 0.7425
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.215,
+      "abs_shap": 0.215
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1516,
+      "abs_shap": 0.1516
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1337,
+      "abs_shap": 0.1337
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.26985786584569,
+      "shap_value": 0.1259,
+      "abs_shap": 0.1259
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.116,
+      "abs_shap": 0.116
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.1038,
+      "abs_shap": 0.1038
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.0974,
+      "abs_shap": 0.0974
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0499,
+      "abs_shap": 0.0499
+    },
+    {
+      "feature": "release_month",
+      "value": 7.0,
+      "shap_value": 0.0483,
+      "abs_shap": 0.0483
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0442,
+      "abs_shap": 0.0442
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0323,
+      "abs_shap": 0.0323
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0322,
+      "abs_shap": 0.0322
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0316,
+      "abs_shap": 0.0316
+    },
+    {
+      "feature": "production_company_count",
+      "value": 5.0,
+      "shap_value": 0.0315,
+      "abs_shap": 0.0315
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.024,
+      "abs_shap": 0.024
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0223,
+      "abs_shap": 0.0223
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0195,
+      "abs_shap": 0.0195
+    },
+    {
+      "feature": "runtime",
+      "value": 107.0,
+      "shap_value": -0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0153,
+      "abs_shap": 0.0153
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.012,
+      "abs_shap": 0.012
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0084,
+      "abs_shap": 0.0084
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "genre_romance",
+      "value": 1.0,
+      "shap_value": 0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0039,
+      "abs_shap": 0.0039
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 86000000.0,
+      "shap_value": 1.1214,
+      "abs_shap": 1.1214
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1516,
+      "abs_shap": 0.1516
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1337,
+      "abs_shap": 0.1337
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.26985786584569,
+      "shap_value": 0.1259,
+      "abs_shap": 0.1259
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.116,
+      "abs_shap": 0.116
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7425,
+      "abs_shap": 0.7425
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.215,
+      "abs_shap": 0.215
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.1038,
+      "abs_shap": 0.1038
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.0974,
+      "abs_shap": 0.0974
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0442,
+      "abs_shap": 0.0442
+    }
+  ],
+  "movie_id": 496450,
+  "title": "Miraculous: Ladybug & Cat Noir, The Movie"
+}

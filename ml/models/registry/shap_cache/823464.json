@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 19.7119,
+  "predicted_revenue_usd": 363704076.11,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 150000000.0,
+      "shap_value": 1.5611,
+      "abs_shap": 1.5611
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6132,
+      "abs_shap": 0.6132
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 22.0,
+      "shap_value": 0.2897,
+      "abs_shap": 0.2897
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2192,
+      "abs_shap": 0.2192
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.826145858727198,
+      "shap_value": 0.1684,
+      "abs_shap": 0.1684
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1307,
+      "abs_shap": 0.1307
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 336126328.59090906,
+      "shap_value": 0.096,
+      "abs_shap": 0.096
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.064,
+      "abs_shap": 0.064
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0609,
+      "abs_shap": 0.0609
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0586,
+      "abs_shap": 0.0586
+    },
+    {
+      "feature": "release_month",
+      "value": 3.0,
+      "shap_value": 0.041,
+      "abs_shap": 0.041
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0401,
+      "abs_shap": 0.0401
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.0334,
+      "abs_shap": 0.0334
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0246,
+      "abs_shap": 0.0246
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0242,
+      "abs_shap": 0.0242
+    },
+    {
+      "feature": "runtime",
+      "value": 115.0,
+      "shap_value": 0.0198,
+      "abs_shap": 0.0198
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0181,
+      "abs_shap": 0.0181
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0162,
+      "abs_shap": 0.0162
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0111,
+      "abs_shap": 0.0111
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0086,
+      "abs_shap": 0.0086
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0053,
+      "abs_shap": 0.0053
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 133084034.75,
+      "shap_value": -0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.004,
+      "abs_shap": 0.004
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 150000000.0,
+      "shap_value": 1.5611,
+      "abs_shap": 1.5611
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 22.0,
+      "shap_value": 0.2897,
+      "abs_shap": 0.2897
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2192,
+      "abs_shap": 0.2192
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.826145858727198,
+      "shap_value": 0.1684,
+      "abs_shap": 0.1684
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1307,
+      "abs_shap": 0.1307
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6132,
+      "abs_shap": 0.6132
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.064,
+      "abs_shap": 0.064
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0609,
+      "abs_shap": 0.0609
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0181,
+      "abs_shap": 0.0181
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0162,
+      "abs_shap": 0.0162
+    }
+  ],
+  "movie_id": 823464,
+  "title": "Godzilla x Kong: The New Empire"
+}

@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.557,
+  "predicted_revenue_usd": 42161509.11,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6804,
+      "abs_shap": 0.6804
+    },
+    {
+      "feature": "runtime",
+      "value": 169.0,
+      "shap_value": 0.4561,
+      "abs_shap": 0.4561
+    },
+    {
+      "feature": "budget",
+      "value": 36150000.0,
+      "shap_value": 0.1776,
+      "abs_shap": 0.1776
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1549,
+      "abs_shap": 0.1549
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.128,
+      "abs_shap": 0.128
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 38654783.25,
+      "shap_value": -0.0951,
+      "abs_shap": 0.0951
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0912,
+      "abs_shap": 0.0912
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.0877,
+      "abs_shap": 0.0877
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0611,
+      "abs_shap": 0.0611
+    },
+    {
+      "feature": "release_month",
+      "value": 9.0,
+      "shap_value": -0.0547,
+      "abs_shap": 0.0547
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0472,
+      "abs_shap": 0.0472
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0331,
+      "abs_shap": 0.0331
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0311,
+      "abs_shap": 0.0311
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.403187534231563,
+      "shap_value": 0.0297,
+      "abs_shap": 0.0297
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0291,
+      "abs_shap": 0.0291
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0241,
+      "abs_shap": 0.0241
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0211,
+      "abs_shap": 0.0211
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0164,
+      "abs_shap": 0.0164
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0111,
+      "abs_shap": 0.0111
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0103,
+      "abs_shap": 0.0103
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.01,
+      "abs_shap": 0.01
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.01,
+      "abs_shap": 0.01
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0039,
+      "abs_shap": 0.0039
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0021,
+      "abs_shap": 0.0021
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "runtime",
+      "value": 169.0,
+      "shap_value": 0.4561,
+      "abs_shap": 0.4561
+    },
+    {
+      "feature": "budget",
+      "value": 36150000.0,
+      "shap_value": 0.1776,
+      "abs_shap": 0.1776
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1549,
+      "abs_shap": 0.1549
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.0877,
+      "abs_shap": 0.0877
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0611,
+      "abs_shap": 0.0611
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6804,
+      "abs_shap": 0.6804
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.128,
+      "abs_shap": 0.128
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 38654783.25,
+      "shap_value": -0.0951,
+      "abs_shap": 0.0951
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0912,
+      "abs_shap": 0.0912
+    },
+    {
+      "feature": "release_month",
+      "value": 9.0,
+      "shap_value": -0.0547,
+      "abs_shap": 0.0547
+    }
+  ],
+  "movie_id": 872906,
+  "title": "Jawan"
+}

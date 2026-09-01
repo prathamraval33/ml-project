@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.3276,
+  "predicted_revenue_usd": 12330390.06,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.9277,
+      "abs_shap": 0.9277
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2822,
+      "abs_shap": 0.2822
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1667,
+      "abs_shap": 0.1667
+    },
+    {
+      "feature": "budget",
+      "value": 25000000.0,
+      "shap_value": -0.1648,
+      "abs_shap": 0.1648
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.1099,
+      "abs_shap": 0.1099
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.1018,
+      "abs_shap": 0.1018
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0848,
+      "abs_shap": 0.0848
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0778,
+      "abs_shap": 0.0778
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0736,
+      "abs_shap": 0.0736
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0694,
+      "abs_shap": 0.0694
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0674,
+      "abs_shap": 0.0674
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0671,
+      "abs_shap": 0.0671
+    },
+    {
+      "feature": "release_month",
+      "value": 11.0,
+      "shap_value": -0.0474,
+      "abs_shap": 0.0474
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.045,
+      "abs_shap": 0.045
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0442,
+      "abs_shap": 0.0442
+    },
+    {
+      "feature": "runtime",
+      "value": 132.0,
+      "shap_value": 0.0437,
+      "abs_shap": 0.0437
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0286,
+      "abs_shap": 0.0286
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0222,
+      "abs_shap": 0.0222
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0208,
+      "abs_shap": 0.0208
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0145,
+      "abs_shap": 0.0145
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0131,
+      "abs_shap": 0.0131
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": -0.0101,
+      "abs_shap": 0.0101
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.034386422832473,
+      "shap_value": -0.0066,
+      "abs_shap": 0.0066
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0063,
+      "abs_shap": 0.0063
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1667,
+      "abs_shap": 0.1667
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0736,
+      "abs_shap": 0.0736
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0694,
+      "abs_shap": 0.0694
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0671,
+      "abs_shap": 0.0671
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.045,
+      "abs_shap": 0.045
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.9277,
+      "abs_shap": 0.9277
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2822,
+      "abs_shap": 0.2822
+    },
+    {
+      "feature": "budget",
+      "value": 25000000.0,
+      "shap_value": -0.1648,
+      "abs_shap": 0.1648
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.1099,
+      "abs_shap": 0.1099
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.1018,
+      "abs_shap": 0.1018
+    }
+  ],
+  "movie_id": 1079244,
+  "title": "Bonhoeffer: Pastor. Spy. Assassin"
+}

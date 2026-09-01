@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.491,
+  "predicted_revenue_usd": 14519082.22,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8392,
+      "abs_shap": 0.8392
+    },
+    {
+      "feature": "production_country_count",
+      "value": 4.0,
+      "shap_value": -0.2506,
+      "abs_shap": 0.2506
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.171,
+      "abs_shap": 0.171
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 22168550.5,
+      "shap_value": -0.1617,
+      "abs_shap": 0.1617
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 6.0,
+      "shap_value": 0.1182,
+      "abs_shap": 0.1182
+    },
+    {
+      "feature": "runtime",
+      "value": 121.0,
+      "shap_value": 0.1035,
+      "abs_shap": 0.1035
+    },
+    {
+      "feature": "production_company_count",
+      "value": 7.0,
+      "shap_value": -0.0979,
+      "abs_shap": 0.0979
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0866,
+      "abs_shap": 0.0866
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.0713,
+      "abs_shap": 0.0713
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0688,
+      "abs_shap": 0.0688
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0643,
+      "abs_shap": 0.0643
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0604,
+      "abs_shap": 0.0604
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0599,
+      "abs_shap": 0.0599
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0373,
+      "abs_shap": 0.0373
+    },
+    {
+      "feature": "budget",
+      "value": 27500000.0,
+      "shap_value": -0.0191,
+      "abs_shap": 0.0191
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.019,
+      "abs_shap": 0.019
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0168,
+      "abs_shap": 0.0168
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0134,
+      "abs_shap": 0.0134
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0127,
+      "abs_shap": 0.0127
+    },
+    {
+      "feature": "release_month",
+      "value": 4.0,
+      "shap_value": -0.0096,
+      "abs_shap": 0.0096
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0092,
+      "abs_shap": 0.0092
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.129696599000436,
+      "shap_value": 0.0088,
+      "abs_shap": 0.0088
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0076,
+      "abs_shap": 0.0076
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0061,
+      "abs_shap": 0.0061
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "release_quarter",
+      "value": 2.0,
+      "shap_value": -0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.171,
+      "abs_shap": 0.171
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 6.0,
+      "shap_value": 0.1182,
+      "abs_shap": 0.1182
+    },
+    {
+      "feature": "runtime",
+      "value": 121.0,
+      "shap_value": 0.1035,
+      "abs_shap": 0.1035
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0643,
+      "abs_shap": 0.0643
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0176,
+      "abs_shap": 0.0176
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8392,
+      "abs_shap": 0.8392
+    },
+    {
+      "feature": "production_country_count",
+      "value": 4.0,
+      "shap_value": -0.2506,
+      "abs_shap": 0.2506
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 22168550.5,
+      "shap_value": -0.1617,
+      "abs_shap": 0.1617
+    },
+    {
+      "feature": "production_company_count",
+      "value": 7.0,
+      "shap_value": -0.0979,
+      "abs_shap": 0.0979
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0866,
+      "abs_shap": 0.0866
+    }
+  ],
+  "movie_id": 796185,
+  "title": "The Three Musketeers: D'Artagnan"
+}

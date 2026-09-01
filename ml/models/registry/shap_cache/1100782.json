@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.0722,
+  "predicted_revenue_usd": 70573177.39,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.672,
+      "abs_shap": 0.672
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2531,
+      "abs_shap": 0.2531
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2128,
+      "abs_shap": 0.2128
+    },
+    {
+      "feature": "runtime",
+      "value": 127.0,
+      "shap_value": 0.1035,
+      "abs_shap": 0.1035
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207821482.54263565,
+      "shap_value": 0.1014,
+      "abs_shap": 0.1014
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.09,
+      "abs_shap": 0.09
+    },
+    {
+      "feature": "budget",
+      "value": 28000000.0,
+      "shap_value": -0.085,
+      "abs_shap": 0.085
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0662,
+      "abs_shap": 0.0662
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.066,
+      "abs_shap": 0.066
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.047,
+      "abs_shap": 0.047
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 217408513.0,
+      "shap_value": 0.0458,
+      "abs_shap": 0.0458
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0394,
+      "abs_shap": 0.0394
+    },
+    {
+      "feature": "genre_horror",
+      "value": 1.0,
+      "shap_value": 0.0383,
+      "abs_shap": 0.0383
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0376,
+      "abs_shap": 0.0376
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0307,
+      "abs_shap": 0.0307
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0294,
+      "abs_shap": 0.0294
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0279,
+      "abs_shap": 0.0279
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0217,
+      "abs_shap": 0.0217
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0196,
+      "abs_shap": 0.0196
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0097,
+      "abs_shap": 0.0097
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 1.0,
+      "shap_value": -0.0085,
+      "abs_shap": 0.0085
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0062,
+      "abs_shap": 0.0062
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.147715103853763,
+      "shap_value": -0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0027,
+      "abs_shap": 0.0027
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": -0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2531,
+      "abs_shap": 0.2531
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2128,
+      "abs_shap": 0.2128
+    },
+    {
+      "feature": "runtime",
+      "value": 127.0,
+      "shap_value": 0.1035,
+      "abs_shap": 0.1035
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207821482.54263565,
+      "shap_value": 0.1014,
+      "abs_shap": 0.1014
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.09,
+      "abs_shap": 0.09
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.672,
+      "abs_shap": 0.672
+    },
+    {
+      "feature": "budget",
+      "value": 28000000.0,
+      "shap_value": -0.085,
+      "abs_shap": 0.085
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0307,
+      "abs_shap": 0.0307
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0294,
+      "abs_shap": 0.0294
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0217,
+      "abs_shap": 0.0217
+    }
+  ],
+  "movie_id": 1100782,
+  "title": "Smile 2"
+}

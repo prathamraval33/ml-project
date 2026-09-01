@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.6825,
+  "predicted_revenue_usd": 17584215.77,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.9078,
+      "abs_shap": 0.9078
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.3553,
+      "abs_shap": 0.3553
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2166,
+      "abs_shap": 0.2166
+    },
+    {
+      "feature": "budget",
+      "value": 25000000.0,
+      "shap_value": -0.2122,
+      "abs_shap": 0.2122
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0848,
+      "abs_shap": 0.0848
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0695,
+      "abs_shap": 0.0695
+    },
+    {
+      "feature": "runtime",
+      "value": 109.0,
+      "shap_value": 0.0632,
+      "abs_shap": 0.0632
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 186993111.875969,
+      "shap_value": 0.0495,
+      "abs_shap": 0.0495
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.0476,
+      "abs_shap": 0.0476
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0413,
+      "abs_shap": 0.0413
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0402,
+      "abs_shap": 0.0402
+    },
+    {
+      "feature": "release_month",
+      "value": 9.0,
+      "shap_value": -0.0303,
+      "abs_shap": 0.0303
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0287,
+      "abs_shap": 0.0287
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 7.0,
+      "shap_value": 0.0278,
+      "abs_shap": 0.0278
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 96179746.14285715,
+      "shap_value": 0.0251,
+      "abs_shap": 0.0251
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0247,
+      "abs_shap": 0.0247
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.011,
+      "abs_shap": 0.011
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0075,
+      "abs_shap": 0.0075
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0074,
+      "abs_shap": 0.0074
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0059,
+      "abs_shap": 0.0059
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.034386422832473,
+      "shap_value": -0.004,
+      "abs_shap": 0.004
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.004,
+      "abs_shap": 0.004
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0025,
+      "abs_shap": 0.0025
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": -0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2166,
+      "abs_shap": 0.2166
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0848,
+      "abs_shap": 0.0848
+    },
+    {
+      "feature": "runtime",
+      "value": 109.0,
+      "shap_value": 0.0632,
+      "abs_shap": 0.0632
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 186993111.875969,
+      "shap_value": 0.0495,
+      "abs_shap": 0.0495
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0402,
+      "abs_shap": 0.0402
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.9078,
+      "abs_shap": 0.9078
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.3553,
+      "abs_shap": 0.3553
+    },
+    {
+      "feature": "budget",
+      "value": 25000000.0,
+      "shap_value": -0.2122,
+      "abs_shap": 0.2122
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0695,
+      "abs_shap": 0.0695
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.0476,
+      "abs_shap": 0.0476
+    }
+  ],
+  "movie_id": 1120911,
+  "title": "Saturday Night"
+}

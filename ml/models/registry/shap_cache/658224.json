@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 15.7071,
+  "predicted_revenue_usd": 6629814.39,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 9100000.0,
+      "shap_value": -0.959,
+      "abs_shap": 0.959
+    },
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.9255,
+      "abs_shap": 0.9255
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1972,
+      "abs_shap": 0.1972
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1645,
+      "abs_shap": 0.1645
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 10657499.0,
+      "shap_value": -0.1438,
+      "abs_shap": 0.1438
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0949,
+      "abs_shap": 0.0949
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0896,
+      "abs_shap": 0.0896
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.0842,
+      "abs_shap": 0.0842
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.02378508137718,
+      "shap_value": -0.0793,
+      "abs_shap": 0.0793
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0671,
+      "abs_shap": 0.0671
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0549,
+      "abs_shap": 0.0549
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0501,
+      "abs_shap": 0.0501
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0482,
+      "abs_shap": 0.0482
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0295,
+      "abs_shap": 0.0295
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0249,
+      "abs_shap": 0.0249
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0204,
+      "abs_shap": 0.0204
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.015,
+      "abs_shap": 0.015
+    },
+    {
+      "feature": "runtime",
+      "value": 104.0,
+      "shap_value": 0.0136,
+      "abs_shap": 0.0136
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0119,
+      "abs_shap": 0.0119
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0096,
+      "abs_shap": 0.0096
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0087,
+      "abs_shap": 0.0087
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0079,
+      "abs_shap": 0.0079
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0049,
+      "abs_shap": 0.0049
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0029,
+      "abs_shap": 0.0029
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0021,
+      "abs_shap": 0.0021
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "release_month",
+      "value": 1.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1972,
+      "abs_shap": 0.1972
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0896,
+      "abs_shap": 0.0896
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0671,
+      "abs_shap": 0.0671
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0549,
+      "abs_shap": 0.0549
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0501,
+      "abs_shap": 0.0501
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 9100000.0,
+      "shap_value": -0.959,
+      "abs_shap": 0.959
+    },
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.9255,
+      "abs_shap": 0.9255
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1645,
+      "abs_shap": 0.1645
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 10657499.0,
+      "shap_value": -0.1438,
+      "abs_shap": 0.1438
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0949,
+      "abs_shap": 0.0949
+    }
+  ],
+  "movie_id": 658224,
+  "title": "The Wizard of the Emerald City, Part 1"
+}

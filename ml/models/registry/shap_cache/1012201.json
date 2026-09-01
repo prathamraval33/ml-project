@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 15.2265,
+  "predicted_revenue_usd": 4099952.57,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -1.0887,
+      "abs_shap": 1.0887
+    },
+    {
+      "feature": "budget",
+      "value": 5000000.0,
+      "shap_value": -1.068,
+      "abs_shap": 1.068
+    },
+    {
+      "feature": "runtime",
+      "value": 85.0,
+      "shap_value": -0.3723,
+      "abs_shap": 0.3723
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1938,
+      "abs_shap": 0.1938
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.1637,
+      "abs_shap": 0.1637
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1302,
+      "abs_shap": 0.1302
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1265,
+      "abs_shap": 0.1265
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.424948670398354,
+      "shap_value": -0.1218,
+      "abs_shap": 0.1218
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1134,
+      "abs_shap": 0.1134
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0754,
+      "abs_shap": 0.0754
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0534,
+      "abs_shap": 0.0534
+    },
+    {
+      "feature": "release_month",
+      "value": 2.0,
+      "shap_value": -0.0458,
+      "abs_shap": 0.0458
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0398,
+      "abs_shap": 0.0398
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0391,
+      "abs_shap": 0.0391
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0285,
+      "abs_shap": 0.0285
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0267,
+      "abs_shap": 0.0267
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0264,
+      "abs_shap": 0.0264
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0256,
+      "abs_shap": 0.0256
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0194,
+      "abs_shap": 0.0194
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0102,
+      "abs_shap": 0.0102
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0095,
+      "abs_shap": 0.0095
+    },
+    {
+      "feature": "production_company_count",
+      "value": 7.0,
+      "shap_value": -0.0073,
+      "abs_shap": 0.0073
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0063,
+      "abs_shap": 0.0063
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0054,
+      "abs_shap": 0.0054
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0029,
+      "abs_shap": 0.0029
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": -0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": -0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1938,
+      "abs_shap": 0.1938
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1265,
+      "abs_shap": 0.1265
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1134,
+      "abs_shap": 0.1134
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0534,
+      "abs_shap": 0.0534
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0398,
+      "abs_shap": 0.0398
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -1.0887,
+      "abs_shap": 1.0887
+    },
+    {
+      "feature": "budget",
+      "value": 5000000.0,
+      "shap_value": -1.068,
+      "abs_shap": 1.068
+    },
+    {
+      "feature": "runtime",
+      "value": 85.0,
+      "shap_value": -0.3723,
+      "abs_shap": 0.3723
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.1637,
+      "abs_shap": 0.1637
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1302,
+      "abs_shap": 0.1302
+    }
+  ],
+  "movie_id": 1012201,
+  "title": "HAIKYU!! The Dumpster Battle"
+}

@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.0993,
+  "predicted_revenue_usd": 72514183.95,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6882,
+      "abs_shap": 0.6882
+    },
+    {
+      "feature": "budget",
+      "value": 50000000.0,
+      "shap_value": 0.4384,
+      "abs_shap": 0.4384
+    },
+    {
+      "feature": "runtime",
+      "value": 182.0,
+      "shap_value": 0.2964,
+      "abs_shap": 0.2964
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2041,
+      "abs_shap": 0.2041
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1599,
+      "abs_shap": 0.1599
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1099,
+      "abs_shap": 0.1099
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0776,
+      "abs_shap": 0.0776
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.72753358339242,
+      "shap_value": 0.0749,
+      "abs_shap": 0.0749
+    },
+    {
+      "feature": "genre_western",
+      "value": 1.0,
+      "shap_value": -0.0678,
+      "abs_shap": 0.0678
+    },
+    {
+      "feature": "release_month",
+      "value": 6.0,
+      "shap_value": 0.0638,
+      "abs_shap": 0.0638
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 2.0,
+      "shap_value": 0.0567,
+      "abs_shap": 0.0567
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0468,
+      "abs_shap": 0.0468
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0394,
+      "abs_shap": 0.0394
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0327,
+      "abs_shap": 0.0327
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 42961263.5,
+      "shap_value": -0.0294,
+      "abs_shap": 0.0294
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0238,
+      "abs_shap": 0.0238
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0197,
+      "abs_shap": 0.0197
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0167,
+      "abs_shap": 0.0167
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0088,
+      "abs_shap": 0.0088
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0085,
+      "abs_shap": 0.0085
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0084,
+      "abs_shap": 0.0084
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0079,
+      "abs_shap": 0.0079
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0073,
+      "abs_shap": 0.0073
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0032,
+      "abs_shap": 0.0032
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "release_quarter",
+      "value": 2.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0006,
+      "abs_shap": 0.0006
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 50000000.0,
+      "shap_value": 0.4384,
+      "abs_shap": 0.4384
+    },
+    {
+      "feature": "runtime",
+      "value": 182.0,
+      "shap_value": 0.2964,
+      "abs_shap": 0.2964
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2041,
+      "abs_shap": 0.2041
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1099,
+      "abs_shap": 0.1099
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.72753358339242,
+      "shap_value": 0.0749,
+      "abs_shap": 0.0749
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6882,
+      "abs_shap": 0.6882
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1599,
+      "abs_shap": 0.1599
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0776,
+      "abs_shap": 0.0776
+    },
+    {
+      "feature": "genre_western",
+      "value": 1.0,
+      "shap_value": -0.0678,
+      "abs_shap": 0.0678
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0327,
+      "abs_shap": 0.0327
+    }
+  ],
+  "movie_id": 932086,
+  "title": "Horizon: An American Saga - Chapter 1"
+}

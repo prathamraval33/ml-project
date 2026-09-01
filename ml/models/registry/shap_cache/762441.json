@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.3065,
+  "predicted_revenue_usd": 89213536.37,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6258,
+      "abs_shap": 0.6258
+    },
+    {
+      "feature": "budget",
+      "value": 67000000.0,
+      "shap_value": 0.5787,
+      "abs_shap": 0.5787
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 3889432.0,
+      "shap_value": -0.3492,
+      "abs_shap": 0.3492
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.3203,
+      "abs_shap": 0.3203
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2782,
+      "abs_shap": 0.2782
+    },
+    {
+      "feature": "runtime",
+      "value": 99.0,
+      "shap_value": -0.1549,
+      "abs_shap": 0.1549
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1401,
+      "abs_shap": 0.1401
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.0824,
+      "abs_shap": 0.0824
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.020203192280615,
+      "shap_value": 0.0814,
+      "abs_shap": 0.0814
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.048,
+      "abs_shap": 0.048
+    },
+    {
+      "feature": "release_month",
+      "value": 6.0,
+      "shap_value": 0.0449,
+      "abs_shap": 0.0449
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207821482.54263565,
+      "shap_value": 0.0442,
+      "abs_shap": 0.0442
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0413,
+      "abs_shap": 0.0413
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0385,
+      "abs_shap": 0.0385
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0379,
+      "abs_shap": 0.0379
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0303,
+      "abs_shap": 0.0303
+    },
+    {
+      "feature": "genre_horror",
+      "value": 1.0,
+      "shap_value": 0.0301,
+      "abs_shap": 0.0301
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0252,
+      "abs_shap": 0.0252
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0232,
+      "abs_shap": 0.0232
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0174,
+      "abs_shap": 0.0174
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0063,
+      "abs_shap": 0.0063
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0055,
+      "abs_shap": 0.0055
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.003,
+      "abs_shap": 0.003
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "release_quarter",
+      "value": 2.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 67000000.0,
+      "shap_value": 0.5787,
+      "abs_shap": 0.5787
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.3203,
+      "abs_shap": 0.3203
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2782,
+      "abs_shap": 0.2782
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1401,
+      "abs_shap": 0.1401
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.020203192280615,
+      "shap_value": 0.0814,
+      "abs_shap": 0.0814
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6258,
+      "abs_shap": 0.6258
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 3889432.0,
+      "shap_value": -0.3492,
+      "abs_shap": 0.3492
+    },
+    {
+      "feature": "runtime",
+      "value": 99.0,
+      "shap_value": -0.1549,
+      "abs_shap": 0.1549
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.0824,
+      "abs_shap": 0.0824
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0174,
+      "abs_shap": 0.0174
+    }
+  ],
+  "movie_id": 762441,
+  "title": "A Quiet Place: Day One"
+}

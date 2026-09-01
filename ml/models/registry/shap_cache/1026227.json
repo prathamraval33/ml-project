@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 15.7933,
+  "predicted_revenue_usd": 7226788.17,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 9000000.0,
+      "shap_value": -0.9571,
+      "abs_shap": 0.9571
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.9016,
+      "abs_shap": 0.9016
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2167,
+      "abs_shap": 0.2167
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1353,
+      "abs_shap": 0.1353
+    },
+    {
+      "feature": "runtime",
+      "value": 118.0,
+      "shap_value": 0.1168,
+      "abs_shap": 0.1168
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.1161,
+      "abs_shap": 0.1161
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1071,
+      "abs_shap": 0.1071
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0989,
+      "abs_shap": 0.0989
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0791,
+      "abs_shap": 0.0791
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.012735246411598,
+      "shap_value": -0.0755,
+      "abs_shap": 0.0755
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.0702,
+      "abs_shap": 0.0702
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0603,
+      "abs_shap": 0.0603
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0546,
+      "abs_shap": 0.0546
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0512,
+      "abs_shap": 0.0512
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0438,
+      "abs_shap": 0.0438
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0351,
+      "abs_shap": 0.0351
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0342,
+      "abs_shap": 0.0342
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.025,
+      "abs_shap": 0.025
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0199,
+      "abs_shap": 0.0199
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0177,
+      "abs_shap": 0.0177
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0156,
+      "abs_shap": 0.0156
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0101,
+      "abs_shap": 0.0101
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0044,
+      "abs_shap": 0.0044
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": 0.0033,
+      "abs_shap": 0.0033
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0032,
+      "abs_shap": 0.0032
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0032,
+      "abs_shap": 0.0032
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1353,
+      "abs_shap": 0.1353
+    },
+    {
+      "feature": "runtime",
+      "value": 118.0,
+      "shap_value": 0.1168,
+      "abs_shap": 0.1168
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.1161,
+      "abs_shap": 0.1161
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0989,
+      "abs_shap": 0.0989
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0512,
+      "abs_shap": 0.0512
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 9000000.0,
+      "shap_value": -0.9571,
+      "abs_shap": 0.9571
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.9016,
+      "abs_shap": 0.9016
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2167,
+      "abs_shap": 0.2167
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1071,
+      "abs_shap": 0.1071
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0791,
+      "abs_shap": 0.0791
+    }
+  ],
+  "movie_id": 1026227,
+  "title": "There's Still Tomorrow"
+}

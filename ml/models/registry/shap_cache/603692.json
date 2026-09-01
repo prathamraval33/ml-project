@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 19.7061,
+  "predicted_revenue_usd": 361608195.54,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 90000000.0,
+      "shap_value": 1.2067,
+      "abs_shap": 1.2067
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.4401,
+      "abs_shap": 0.4401
+    },
+    {
+      "feature": "runtime",
+      "value": 170.0,
+      "shap_value": 0.4211,
+      "abs_shap": 0.4211
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.2088,
+      "abs_shap": 0.2088
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1896,
+      "abs_shap": 0.1896
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.31532023940565,
+      "shap_value": 0.1403,
+      "abs_shap": 0.1403
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 7.0,
+      "shap_value": 0.1115,
+      "abs_shap": 0.1115
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.0831,
+      "abs_shap": 0.0831
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0713,
+      "abs_shap": 0.0713
+    },
+    {
+      "feature": "release_month",
+      "value": 3.0,
+      "shap_value": 0.065,
+      "abs_shap": 0.065
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0563,
+      "abs_shap": 0.0563
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0481,
+      "abs_shap": 0.0481
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 195670425.0,
+      "shap_value": 0.0454,
+      "abs_shap": 0.0454
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 159237485.42857143,
+      "shap_value": 0.0435,
+      "abs_shap": 0.0435
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 3.0,
+      "shap_value": 0.0387,
+      "abs_shap": 0.0387
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0174,
+      "abs_shap": 0.0174
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0138,
+      "abs_shap": 0.0138
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0137,
+      "abs_shap": 0.0137
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0114,
+      "abs_shap": 0.0114
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0103,
+      "abs_shap": 0.0103
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": 0.0065,
+      "abs_shap": 0.0065
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0055,
+      "abs_shap": 0.0055
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0051,
+      "abs_shap": 0.0051
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0048,
+      "abs_shap": 0.0048
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0029,
+      "abs_shap": 0.0029
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0029,
+      "abs_shap": 0.0029
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 90000000.0,
+      "shap_value": 1.2067,
+      "abs_shap": 1.2067
+    },
+    {
+      "feature": "runtime",
+      "value": 170.0,
+      "shap_value": 0.4211,
+      "abs_shap": 0.4211
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.2088,
+      "abs_shap": 0.2088
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1896,
+      "abs_shap": 0.1896
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.31532023940565,
+      "shap_value": 0.1403,
+      "abs_shap": 0.1403
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.4401,
+      "abs_shap": 0.4401
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.0831,
+      "abs_shap": 0.0831
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0713,
+      "abs_shap": 0.0713
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0174,
+      "abs_shap": 0.0174
+    }
+  ],
+  "movie_id": 603692,
+  "title": "John Wick: Chapter 4"
+}

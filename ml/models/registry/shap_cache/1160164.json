@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.7623,
+  "predicted_revenue_usd": 19045518.84,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7014,
+      "abs_shap": 0.7014
+    },
+    {
+      "feature": "runtime",
+      "value": 169.0,
+      "shap_value": 0.4793,
+      "abs_shap": 0.4793
+    },
+    {
+      "feature": "budget",
+      "value": 15000000.0,
+      "shap_value": -0.3672,
+      "abs_shap": 0.3672
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.206,
+      "abs_shap": 0.206
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.156,
+      "abs_shap": 0.156
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0936,
+      "abs_shap": 0.0936
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0805,
+      "abs_shap": 0.0805
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.074,
+      "abs_shap": 0.074
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0648,
+      "abs_shap": 0.0648
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0614,
+      "abs_shap": 0.0614
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.52356082573315,
+      "shap_value": -0.0564,
+      "abs_shap": 0.0564
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.047,
+      "abs_shap": 0.047
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0394,
+      "abs_shap": 0.0394
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0388,
+      "abs_shap": 0.0388
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": 0.0371,
+      "abs_shap": 0.0371
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.03,
+      "abs_shap": 0.03
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0223,
+      "abs_shap": 0.0223
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0202,
+      "abs_shap": 0.0202
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0195,
+      "abs_shap": 0.0195
+    },
+    {
+      "feature": "genre_music",
+      "value": 1.0,
+      "shap_value": -0.0124,
+      "abs_shap": 0.0124
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.011,
+      "abs_shap": 0.011
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.009,
+      "abs_shap": 0.009
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0066,
+      "abs_shap": 0.0066
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": -0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "runtime",
+      "value": 169.0,
+      "shap_value": 0.4793,
+      "abs_shap": 0.4793
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0936,
+      "abs_shap": 0.0936
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.074,
+      "abs_shap": 0.074
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0394,
+      "abs_shap": 0.0394
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0388,
+      "abs_shap": 0.0388
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7014,
+      "abs_shap": 0.7014
+    },
+    {
+      "feature": "budget",
+      "value": 15000000.0,
+      "shap_value": -0.3672,
+      "abs_shap": 0.3672
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.206,
+      "abs_shap": 0.206
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.156,
+      "abs_shap": 0.156
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0805,
+      "abs_shap": 0.0805
+    }
+  ],
+  "movie_id": 1160164,
+  "title": "TAYLOR SWIFT | THE ERAS TOUR"
+}

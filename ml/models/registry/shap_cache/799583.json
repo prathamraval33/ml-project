@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.9851,
+  "predicted_revenue_usd": 64690354.32,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.8015,
+      "abs_shap": 0.8015
+    },
+    {
+      "feature": "budget",
+      "value": 60000000.0,
+      "shap_value": 0.5588,
+      "abs_shap": 0.5588
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.0896,
+      "abs_shap": 0.0896
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0892,
+      "abs_shap": 0.0892
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0874,
+      "abs_shap": 0.0874
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.909855136853043,
+      "shap_value": 0.0777,
+      "abs_shap": 0.0777
+    },
+    {
+      "feature": "runtime",
+      "value": 120.0,
+      "shap_value": 0.069,
+      "abs_shap": 0.069
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.0683,
+      "abs_shap": 0.0683
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 242564379.2,
+      "shap_value": 0.0549,
+      "abs_shap": 0.0549
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0549,
+      "abs_shap": 0.0549
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 368745215.0,
+      "shap_value": 0.0514,
+      "abs_shap": 0.0514
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.051,
+      "abs_shap": 0.051
+    },
+    {
+      "feature": "release_month",
+      "value": 4.0,
+      "shap_value": 0.0509,
+      "abs_shap": 0.0509
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0495,
+      "abs_shap": 0.0495
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 10.0,
+      "shap_value": 0.0282,
+      "abs_shap": 0.0282
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0216,
+      "abs_shap": 0.0216
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0165,
+      "abs_shap": 0.0165
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0082,
+      "abs_shap": 0.0082
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0078,
+      "abs_shap": 0.0078
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0074,
+      "abs_shap": 0.0074
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0043,
+      "abs_shap": 0.0043
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": 0.0027,
+      "abs_shap": 0.0027
+    },
+    {
+      "feature": "release_quarter",
+      "value": 2.0,
+      "shap_value": 0.0026,
+      "abs_shap": 0.0026
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": 0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0003,
+      "abs_shap": 0.0003
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 60000000.0,
+      "shap_value": 0.5588,
+      "abs_shap": 0.5588
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 4.0,
+      "shap_value": 0.0896,
+      "abs_shap": 0.0896
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.909855136853043,
+      "shap_value": 0.0777,
+      "abs_shap": 0.0777
+    },
+    {
+      "feature": "runtime",
+      "value": 120.0,
+      "shap_value": 0.069,
+      "abs_shap": 0.069
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.0683,
+      "abs_shap": 0.0683
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.8015,
+      "abs_shap": 0.8015
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0892,
+      "abs_shap": 0.0892
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0874,
+      "abs_shap": 0.0874
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0248,
+      "abs_shap": 0.0248
+    }
+  ],
+  "movie_id": 799583,
+  "title": "The Ministry of Ungentlemanly Warfare"
+}

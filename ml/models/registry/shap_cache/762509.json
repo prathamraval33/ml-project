@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 19.57,
+  "predicted_revenue_usd": 315600662.96,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 200000000.0,
+      "shap_value": 1.4283,
+      "abs_shap": 1.4283
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6703,
+      "abs_shap": 0.6703
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 97.0,
+      "shap_value": 0.2073,
+      "abs_shap": 0.2073
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1994,
+      "abs_shap": 0.1994
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.11382792951231,
+      "shap_value": 0.1606,
+      "abs_shap": 0.1606
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1376,
+      "abs_shap": 0.1376
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.0809,
+      "abs_shap": 0.0809
+    },
+    {
+      "feature": "runtime",
+      "value": 118.0,
+      "shap_value": 0.0611,
+      "abs_shap": 0.0611
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 362315015.53608245,
+      "shap_value": 0.058,
+      "abs_shap": 0.058
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0511,
+      "abs_shap": 0.0511
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 42809689.0,
+      "shap_value": -0.0419,
+      "abs_shap": 0.0419
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0355,
+      "abs_shap": 0.0355
+    },
+    {
+      "feature": "release_month",
+      "value": 12.0,
+      "shap_value": -0.0329,
+      "abs_shap": 0.0329
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0324,
+      "abs_shap": 0.0324
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0277,
+      "abs_shap": 0.0277
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0247,
+      "abs_shap": 0.0247
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0234,
+      "abs_shap": 0.0234
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 2.0,
+      "shap_value": 0.021,
+      "abs_shap": 0.021
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0141,
+      "abs_shap": 0.0141
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0134,
+      "abs_shap": 0.0134
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0128,
+      "abs_shap": 0.0128
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0102,
+      "abs_shap": 0.0102
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0081,
+      "abs_shap": 0.0081
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0052,
+      "abs_shap": 0.0052
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0026,
+      "abs_shap": 0.0026
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0025,
+      "abs_shap": 0.0025
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 200000000.0,
+      "shap_value": 1.4283,
+      "abs_shap": 1.4283
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 97.0,
+      "shap_value": 0.2073,
+      "abs_shap": 0.2073
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1994,
+      "abs_shap": 0.1994
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.11382792951231,
+      "shap_value": 0.1606,
+      "abs_shap": 0.1606
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1376,
+      "abs_shap": 0.1376
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6703,
+      "abs_shap": 0.6703
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 42809689.0,
+      "shap_value": -0.0419,
+      "abs_shap": 0.0419
+    },
+    {
+      "feature": "release_month",
+      "value": 12.0,
+      "shap_value": -0.0329,
+      "abs_shap": 0.0329
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0141,
+      "abs_shap": 0.0141
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0134,
+      "abs_shap": 0.0134
+    }
+  ],
+  "movie_id": 762509,
+  "title": "Mufasa: The Lion King"
+}

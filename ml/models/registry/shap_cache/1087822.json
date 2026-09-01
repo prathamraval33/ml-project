@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.4079,
+  "predicted_revenue_usd": 36319089.87,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6133,
+      "abs_shap": 0.6133
+    },
+    {
+      "feature": "budget",
+      "value": 20000000.0,
+      "shap_value": -0.2665,
+      "abs_shap": 0.2665
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.2633,
+      "abs_shap": 0.2633
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.2113,
+      "abs_shap": 0.2113
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 2.0,
+      "shap_value": 0.1289,
+      "abs_shap": 0.1289
+    },
+    {
+      "feature": "runtime",
+      "value": 100.0,
+      "shap_value": -0.1274,
+      "abs_shap": 0.1274
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207553345.0,
+      "shap_value": 0.0971,
+      "abs_shap": 0.0971
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0903,
+      "abs_shap": 0.0903
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 72087976.66666667,
+      "shap_value": 0.0841,
+      "abs_shap": 0.0841
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 3.0,
+      "shap_value": 0.0837,
+      "abs_shap": 0.0837
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0588,
+      "abs_shap": 0.0588
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0511,
+      "abs_shap": 0.0511
+    },
+    {
+      "feature": "genre_horror",
+      "value": 1.0,
+      "shap_value": 0.0423,
+      "abs_shap": 0.0423
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0387,
+      "abs_shap": 0.0387
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.811242881518265,
+      "shap_value": -0.031,
+      "abs_shap": 0.031
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": -0.0272,
+      "abs_shap": 0.0272
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0251,
+      "abs_shap": 0.0251
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0243,
+      "abs_shap": 0.0243
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0213,
+      "abs_shap": 0.0213
+    },
+    {
+      "feature": "release_month",
+      "value": 8.0,
+      "shap_value": 0.0187,
+      "abs_shap": 0.0187
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0187,
+      "abs_shap": 0.0187
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0105,
+      "abs_shap": 0.0105
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0086,
+      "abs_shap": 0.0086
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0057,
+      "abs_shap": 0.0057
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0044,
+      "abs_shap": 0.0044
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.2633,
+      "abs_shap": 0.2633
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 2.0,
+      "shap_value": 0.1289,
+      "abs_shap": 0.1289
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207553345.0,
+      "shap_value": 0.0971,
+      "abs_shap": 0.0971
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0903,
+      "abs_shap": 0.0903
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 72087976.66666667,
+      "shap_value": 0.0841,
+      "abs_shap": 0.0841
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6133,
+      "abs_shap": 0.6133
+    },
+    {
+      "feature": "budget",
+      "value": 20000000.0,
+      "shap_value": -0.2665,
+      "abs_shap": 0.2665
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.2113,
+      "abs_shap": 0.2113
+    },
+    {
+      "feature": "runtime",
+      "value": 100.0,
+      "shap_value": -0.1274,
+      "abs_shap": 0.1274
+    },
+    {
+      "feature": "log_budget",
+      "value": 16.811242881518265,
+      "shap_value": -0.031,
+      "abs_shap": 0.031
+    }
+  ],
+  "movie_id": 1087822,
+  "title": "Hellboy: The Crooked Man"
+}

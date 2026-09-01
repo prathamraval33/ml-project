@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 19.6348,
+  "predicted_revenue_usd": 336715986.6,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 195000000.0,
+      "shap_value": 1.6709,
+      "abs_shap": 1.6709
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6896,
+      "abs_shap": 0.6896
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 87.0,
+      "shap_value": 0.3009,
+      "abs_shap": 0.3009
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.088510121656228,
+      "shap_value": 0.1854,
+      "abs_shap": 0.1854
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1704,
+      "abs_shap": 0.1704
+    },
+    {
+      "feature": "runtime",
+      "value": 138.0,
+      "shap_value": 0.1672,
+      "abs_shap": 0.1672
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.1515,
+      "abs_shap": 0.1515
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 1.0,
+      "shap_value": 0.1034,
+      "abs_shap": 0.1034
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 352469182.5555556,
+      "shap_value": 0.0802,
+      "abs_shap": 0.0802
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 335326952.49425286,
+      "shap_value": 0.0781,
+      "abs_shap": 0.0781
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0608,
+      "abs_shap": 0.0608
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0603,
+      "abs_shap": 0.0603
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0519,
+      "abs_shap": 0.0519
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0286,
+      "abs_shap": 0.0286
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0268,
+      "abs_shap": 0.0268
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0256,
+      "abs_shap": 0.0256
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 9.0,
+      "shap_value": 0.0144,
+      "abs_shap": 0.0144
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0144,
+      "abs_shap": 0.0144
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0139,
+      "abs_shap": 0.0139
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0115,
+      "abs_shap": 0.0115
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0097,
+      "abs_shap": 0.0097
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0063,
+      "abs_shap": 0.0063
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0055,
+      "abs_shap": 0.0055
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0046,
+      "abs_shap": 0.0046
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": -0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 195000000.0,
+      "shap_value": 1.6709,
+      "abs_shap": 1.6709
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 87.0,
+      "shap_value": 0.3009,
+      "abs_shap": 0.3009
+    },
+    {
+      "feature": "log_budget",
+      "value": 19.088510121656228,
+      "shap_value": 0.1854,
+      "abs_shap": 0.1854
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1704,
+      "abs_shap": 0.1704
+    },
+    {
+      "feature": "runtime",
+      "value": 138.0,
+      "shap_value": 0.1672,
+      "abs_shap": 0.1672
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.6896,
+      "abs_shap": 0.6896
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.1515,
+      "abs_shap": 0.1515
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0608,
+      "abs_shap": 0.0608
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0603,
+      "abs_shap": 0.0603
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0256,
+      "abs_shap": 0.0256
+    }
+  ],
+  "movie_id": 889737,
+  "title": "Joker: Folie \u00e0 Deux"
+}

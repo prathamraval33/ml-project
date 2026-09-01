@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.3775,
+  "predicted_revenue_usd": 95773329.03,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 95000000.0,
+      "shap_value": 1.049,
+      "abs_shap": 1.049
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6402,
+      "abs_shap": 0.6402
+    },
+    {
+      "feature": "runtime",
+      "value": 91.0,
+      "shap_value": -0.2206,
+      "abs_shap": 0.2206
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 32.0,
+      "shap_value": 0.1891,
+      "abs_shap": 0.1891
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 428242279.40625,
+      "shap_value": 0.1272,
+      "abs_shap": 0.1272
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 49276818.0,
+      "shap_value": -0.1151,
+      "abs_shap": 0.1151
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.36938746009113,
+      "shap_value": 0.1019,
+      "abs_shap": 0.1019
+    },
+    {
+      "feature": "genre_music",
+      "value": 1.0,
+      "shap_value": -0.0839,
+      "abs_shap": 0.0839
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.0768,
+      "abs_shap": 0.0768
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0638,
+      "abs_shap": 0.0638
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0579,
+      "abs_shap": 0.0579
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0341,
+      "abs_shap": 0.0341
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0334,
+      "abs_shap": 0.0334
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0315,
+      "abs_shap": 0.0315
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0255,
+      "abs_shap": 0.0255
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0251,
+      "abs_shap": 0.0251
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.025,
+      "abs_shap": 0.025
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.0244,
+      "abs_shap": 0.0244
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0193,
+      "abs_shap": 0.0193
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0177,
+      "abs_shap": 0.0177
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0173,
+      "abs_shap": 0.0173
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0089,
+      "abs_shap": 0.0089
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": 0.0072,
+      "abs_shap": 0.0072
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": -0.0062,
+      "abs_shap": 0.0062
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": 0.0033,
+      "abs_shap": 0.0033
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 95000000.0,
+      "shap_value": 1.049,
+      "abs_shap": 1.049
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 32.0,
+      "shap_value": 0.1891,
+      "abs_shap": 0.1891
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 428242279.40625,
+      "shap_value": 0.1272,
+      "abs_shap": 0.1272
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.36938746009113,
+      "shap_value": 0.1019,
+      "abs_shap": 0.1019
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.0768,
+      "abs_shap": 0.0768
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6402,
+      "abs_shap": 0.6402
+    },
+    {
+      "feature": "runtime",
+      "value": 91.0,
+      "shap_value": -0.2206,
+      "abs_shap": 0.2206
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 49276818.0,
+      "shap_value": -0.1151,
+      "abs_shap": 0.1151
+    },
+    {
+      "feature": "genre_music",
+      "value": 1.0,
+      "shap_value": -0.0839,
+      "abs_shap": 0.0839
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0579,
+      "abs_shap": 0.0579
+    }
+  ],
+  "movie_id": 901362,
+  "title": "Trolls Band Together"
+}

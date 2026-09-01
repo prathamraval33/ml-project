@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.3254,
+  "predicted_revenue_usd": 33444038.59,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.867,
+      "abs_shap": 0.867
+    },
+    {
+      "feature": "budget",
+      "value": 40000000.0,
+      "shap_value": 0.4617,
+      "abs_shap": 0.4617
+    },
+    {
+      "feature": "runtime",
+      "value": 153.0,
+      "shap_value": 0.4091,
+      "abs_shap": 0.4091
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2141,
+      "abs_shap": 0.2141
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1634,
+      "abs_shap": 0.1634
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.1043,
+      "abs_shap": 0.1043
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.1015,
+      "abs_shap": 0.1015
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0926,
+      "abs_shap": 0.0926
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.092,
+      "abs_shap": 0.092
+    },
+    {
+      "feature": "release_month",
+      "value": 12.0,
+      "shap_value": -0.0904,
+      "abs_shap": 0.0904
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0758,
+      "abs_shap": 0.0758
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.50439003707821,
+      "shap_value": 0.0629,
+      "abs_shap": 0.0629
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": -0.0536,
+      "abs_shap": 0.0536
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0525,
+      "abs_shap": 0.0525
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0364,
+      "abs_shap": 0.0364
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0313,
+      "abs_shap": 0.0313
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0272,
+      "abs_shap": 0.0272
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0249,
+      "abs_shap": 0.0249
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0219,
+      "abs_shap": 0.0219
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0211,
+      "abs_shap": 0.0211
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0164,
+      "abs_shap": 0.0164
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0134,
+      "abs_shap": 0.0134
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0121,
+      "abs_shap": 0.0121
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0112,
+      "abs_shap": 0.0112
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.007,
+      "abs_shap": 0.007
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.003,
+      "abs_shap": 0.003
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 40000000.0,
+      "shap_value": 0.4617,
+      "abs_shap": 0.4617
+    },
+    {
+      "feature": "runtime",
+      "value": 153.0,
+      "shap_value": 0.4091,
+      "abs_shap": 0.4091
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1634,
+      "abs_shap": 0.1634
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0758,
+      "abs_shap": 0.0758
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.50439003707821,
+      "shap_value": 0.0629,
+      "abs_shap": 0.0629
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.867,
+      "abs_shap": 0.867
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2141,
+      "abs_shap": 0.2141
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.1043,
+      "abs_shap": 0.1043
+    },
+    {
+      "feature": "genre_history",
+      "value": 1.0,
+      "shap_value": -0.1015,
+      "abs_shap": 0.1015
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0926,
+      "abs_shap": 0.0926
+    }
+  ],
+  "movie_id": 660360,
+  "title": "Noryang: Deadly Sea"
+}

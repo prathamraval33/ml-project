@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.7378,
+  "predicted_revenue_usd": 50514164.43,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.6141,
+      "abs_shap": 0.6141
+    },
+    {
+      "feature": "budget",
+      "value": 41000000.0,
+      "shap_value": 0.4208,
+      "abs_shap": 0.4208
+    },
+    {
+      "feature": "runtime",
+      "value": 164.0,
+      "shap_value": 0.3571,
+      "abs_shap": 0.3571
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1503,
+      "abs_shap": 0.1503
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1365,
+      "abs_shap": 0.1365
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 19000000.0,
+      "shap_value": -0.1195,
+      "abs_shap": 0.1195
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0741,
+      "abs_shap": 0.0741
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0734,
+      "abs_shap": 0.0734
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.529082649058825,
+      "shap_value": 0.0619,
+      "abs_shap": 0.0619
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0416,
+      "abs_shap": 0.0416
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0407,
+      "abs_shap": 0.0407
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0334,
+      "abs_shap": 0.0334
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0295,
+      "abs_shap": 0.0295
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0287,
+      "abs_shap": 0.0287
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0198,
+      "abs_shap": 0.0198
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0195,
+      "abs_shap": 0.0195
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0189,
+      "abs_shap": 0.0189
+    },
+    {
+      "feature": "release_month",
+      "value": 1.0,
+      "shap_value": -0.0165,
+      "abs_shap": 0.0165
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0087,
+      "abs_shap": 0.0087
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0082,
+      "abs_shap": 0.0082
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0082,
+      "abs_shap": 0.0082
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.008,
+      "abs_shap": 0.008
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0064,
+      "abs_shap": 0.0064
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0036,
+      "abs_shap": 0.0036
+    },
+    {
+      "feature": "production_company_count",
+      "value": 1.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 41000000.0,
+      "shap_value": 0.4208,
+      "abs_shap": 0.4208
+    },
+    {
+      "feature": "runtime",
+      "value": 164.0,
+      "shap_value": 0.3571,
+      "abs_shap": 0.3571
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1503,
+      "abs_shap": 0.1503
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.529082649058825,
+      "shap_value": 0.0619,
+      "abs_shap": 0.0619
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0416,
+      "abs_shap": 0.0416
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.6141,
+      "abs_shap": 0.6141
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.1365,
+      "abs_shap": 0.1365
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 19000000.0,
+      "shap_value": -0.1195,
+      "abs_shap": 0.1195
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0741,
+      "abs_shap": 0.0741
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0734,
+      "abs_shap": 0.0734
+    }
+  ],
+  "movie_id": 811944,
+  "title": "Game Changer"
+}

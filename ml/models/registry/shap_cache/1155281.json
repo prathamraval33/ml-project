@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.9945,
+  "predicted_revenue_usd": 177501169.72,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 120000000.0,
+      "shap_value": 1.5003,
+      "abs_shap": 1.5003
+    },
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.7336,
+      "abs_shap": 0.7336
+    },
+    {
+      "feature": "runtime",
+      "value": 145.0,
+      "shap_value": 0.5004,
+      "abs_shap": 0.5004
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2645,
+      "abs_shap": 0.2645
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.603002309079653,
+      "shap_value": 0.1777,
+      "abs_shap": 0.1777
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1598,
+      "abs_shap": 0.1598
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1201,
+      "abs_shap": 0.1201
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0971,
+      "abs_shap": 0.0971
+    },
+    {
+      "feature": "production_company_count",
+      "value": 7.0,
+      "shap_value": -0.0953,
+      "abs_shap": 0.0953
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0739,
+      "abs_shap": 0.0739
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0696,
+      "abs_shap": 0.0696
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0407,
+      "abs_shap": 0.0407
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0335,
+      "abs_shap": 0.0335
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0256,
+      "abs_shap": 0.0256
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0227,
+      "abs_shap": 0.0227
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.019,
+      "abs_shap": 0.019
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.016,
+      "abs_shap": 0.016
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0155,
+      "abs_shap": 0.0155
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0148,
+      "abs_shap": 0.0148
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0098,
+      "abs_shap": 0.0098
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0094,
+      "abs_shap": 0.0094
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0089,
+      "abs_shap": 0.0089
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0077,
+      "abs_shap": 0.0077
+    },
+    {
+      "feature": "release_month",
+      "value": 1.0,
+      "shap_value": 0.0071,
+      "abs_shap": 0.0071
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0068,
+      "abs_shap": 0.0068
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0058,
+      "abs_shap": 0.0058
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0028,
+      "abs_shap": 0.0028
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0025,
+      "abs_shap": 0.0025
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0008,
+      "abs_shap": 0.0008
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0007,
+      "abs_shap": 0.0007
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 120000000.0,
+      "shap_value": 1.5003,
+      "abs_shap": 1.5003
+    },
+    {
+      "feature": "runtime",
+      "value": 145.0,
+      "shap_value": 0.5004,
+      "abs_shap": 0.5004
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.603002309079653,
+      "shap_value": 0.1777,
+      "abs_shap": 0.1777
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1598,
+      "abs_shap": 0.1598
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1201,
+      "abs_shap": 0.1201
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2025.0,
+      "shap_value": -0.7336,
+      "abs_shap": 0.7336
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2645,
+      "abs_shap": 0.2645
+    },
+    {
+      "feature": "genre_war",
+      "value": 1.0,
+      "shap_value": -0.0971,
+      "abs_shap": 0.0971
+    },
+    {
+      "feature": "production_company_count",
+      "value": 7.0,
+      "shap_value": -0.0953,
+      "abs_shap": 0.0953
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0739,
+      "abs_shap": 0.0739
+    }
+  ],
+  "movie_id": 1155281,
+  "title": "Creation of the Gods II: Demon Force"
+}

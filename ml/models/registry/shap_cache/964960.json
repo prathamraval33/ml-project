@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 15.5798,
+  "predicted_revenue_usd": 5837297.55,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 6500000.0,
+      "shap_value": -1.1695,
+      "abs_shap": 1.1695
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8919,
+      "abs_shap": 0.8919
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2164,
+      "abs_shap": 0.2164
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1584,
+      "abs_shap": 0.1584
+    },
+    {
+      "feature": "runtime",
+      "value": 135.0,
+      "shap_value": 0.1327,
+      "abs_shap": 0.1327
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.687312888712007,
+      "shap_value": -0.1161,
+      "abs_shap": 0.1161
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0989,
+      "abs_shap": 0.0989
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0827,
+      "abs_shap": 0.0827
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0717,
+      "abs_shap": 0.0717
+    },
+    {
+      "feature": "release_month",
+      "value": 11.0,
+      "shap_value": -0.0716,
+      "abs_shap": 0.0716
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0715,
+      "abs_shap": 0.0715
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0538,
+      "abs_shap": 0.0538
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0349,
+      "abs_shap": 0.0349
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0304,
+      "abs_shap": 0.0304
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0265,
+      "abs_shap": 0.0265
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": -0.0238,
+      "abs_shap": 0.0238
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0234,
+      "abs_shap": 0.0234
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0204,
+      "abs_shap": 0.0204
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0174,
+      "abs_shap": 0.0174
+    },
+    {
+      "feature": "genre_romance",
+      "value": 1.0,
+      "shap_value": 0.0171,
+      "abs_shap": 0.0171
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0157,
+      "abs_shap": 0.0157
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0125,
+      "abs_shap": 0.0125
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0062,
+      "abs_shap": 0.0062
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0058,
+      "abs_shap": 0.0058
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0042,
+      "abs_shap": 0.0042
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1584,
+      "abs_shap": 0.1584
+    },
+    {
+      "feature": "runtime",
+      "value": 135.0,
+      "shap_value": 0.1327,
+      "abs_shap": 0.1327
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0989,
+      "abs_shap": 0.0989
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0717,
+      "abs_shap": 0.0717
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0538,
+      "abs_shap": 0.0538
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 6500000.0,
+      "shap_value": -1.1695,
+      "abs_shap": 1.1695
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8919,
+      "abs_shap": 0.8919
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2164,
+      "abs_shap": 0.2164
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.687312888712007,
+      "shap_value": -0.1161,
+      "abs_shap": 0.1161
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0827,
+      "abs_shap": 0.0827
+    }
+  ],
+  "movie_id": 964960,
+  "title": "The Taste of Things"
+}

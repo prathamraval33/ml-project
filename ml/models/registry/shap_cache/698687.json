@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.3504,
+  "predicted_revenue_usd": 93216316.95,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 75000000.0,
+      "shap_value": 0.915,
+      "abs_shap": 0.915
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.696,
+      "abs_shap": 0.696
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1819,
+      "abs_shap": 0.1819
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.1714,
+      "abs_shap": 0.1714
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 1073841394.0,
+      "shap_value": 0.1639,
+      "abs_shap": 0.1639
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.127,
+      "abs_shap": 0.127
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1094,
+      "abs_shap": 0.1094
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.132998684833918,
+      "shap_value": 0.1049,
+      "abs_shap": 0.1049
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 311594032.0,
+      "shap_value": 0.0985,
+      "abs_shap": 0.0985
+    },
+    {
+      "feature": "production_company_count",
+      "value": 6.0,
+      "shap_value": -0.0521,
+      "abs_shap": 0.0521
+    },
+    {
+      "feature": "runtime",
+      "value": 104.0,
+      "shap_value": -0.0479,
+      "abs_shap": 0.0479
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0456,
+      "abs_shap": 0.0456
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0421,
+      "abs_shap": 0.0421
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0411,
+      "abs_shap": 0.0411
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0356,
+      "abs_shap": 0.0356
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0313,
+      "abs_shap": 0.0313
+    },
+    {
+      "feature": "release_month",
+      "value": 9.0,
+      "shap_value": -0.0244,
+      "abs_shap": 0.0244
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0222,
+      "abs_shap": 0.0222
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0212,
+      "abs_shap": 0.0212
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0147,
+      "abs_shap": 0.0147
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0097,
+      "abs_shap": 0.0097
+    },
+    {
+      "feature": "genre_family",
+      "value": 1.0,
+      "shap_value": 0.0065,
+      "abs_shap": 0.0065
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0058,
+      "abs_shap": 0.0058
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0048,
+      "abs_shap": 0.0048
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0042,
+      "abs_shap": 0.0042
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": -0.0021,
+      "abs_shap": 0.0021
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0002,
+      "abs_shap": 0.0002
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": -0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 75000000.0,
+      "shap_value": 0.915,
+      "abs_shap": 0.915
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.1819,
+      "abs_shap": 0.1819
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 1073841394.0,
+      "shap_value": 0.1639,
+      "abs_shap": 0.1639
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1094,
+      "abs_shap": 0.1094
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.132998684833918,
+      "shap_value": 0.1049,
+      "abs_shap": 0.1049
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.696,
+      "abs_shap": 0.696
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.1714,
+      "abs_shap": 0.1714
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.127,
+      "abs_shap": 0.127
+    },
+    {
+      "feature": "production_company_count",
+      "value": 6.0,
+      "shap_value": -0.0521,
+      "abs_shap": 0.0521
+    },
+    {
+      "feature": "runtime",
+      "value": 104.0,
+      "shap_value": -0.0479,
+      "abs_shap": 0.0479
+    }
+  ],
+  "movie_id": 698687,
+  "title": "Transformers One"
+}

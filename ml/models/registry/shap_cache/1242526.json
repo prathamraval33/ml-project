@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 15.7875,
+  "predicted_revenue_usd": 7185314.39,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 8500000.0,
+      "shap_value": -1.0752,
+      "abs_shap": 1.0752
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -1.019,
+      "abs_shap": 1.019
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2388,
+      "abs_shap": 0.2388
+    },
+    {
+      "feature": "runtime",
+      "value": 130.0,
+      "shap_value": 0.1889,
+      "abs_shap": 0.1889
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1463,
+      "abs_shap": 0.1463
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1128,
+      "abs_shap": 0.1128
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.955576839107596,
+      "shap_value": -0.0835,
+      "abs_shap": 0.0835
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0758,
+      "abs_shap": 0.0758
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0735,
+      "abs_shap": 0.0735
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0726,
+      "abs_shap": 0.0726
+    },
+    {
+      "feature": "release_month",
+      "value": 7.0,
+      "shap_value": 0.067,
+      "abs_shap": 0.067
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0632,
+      "abs_shap": 0.0632
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0586,
+      "abs_shap": 0.0586
+    },
+    {
+      "feature": "production_company_count",
+      "value": 3.0,
+      "shap_value": 0.0573,
+      "abs_shap": 0.0573
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0509,
+      "abs_shap": 0.0509
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.0499,
+      "abs_shap": 0.0499
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.023,
+      "abs_shap": 0.023
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0178,
+      "abs_shap": 0.0178
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0135,
+      "abs_shap": 0.0135
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0101,
+      "abs_shap": 0.0101
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0085,
+      "abs_shap": 0.0085
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.005,
+      "abs_shap": 0.005
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0045,
+      "abs_shap": 0.0045
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0027,
+      "abs_shap": 0.0027
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0024,
+      "abs_shap": 0.0024
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "runtime",
+      "value": 130.0,
+      "shap_value": 0.1889,
+      "abs_shap": 0.1889
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1463,
+      "abs_shap": 0.1463
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0735,
+      "abs_shap": 0.0735
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0726,
+      "abs_shap": 0.0726
+    },
+    {
+      "feature": "release_month",
+      "value": 7.0,
+      "shap_value": 0.067,
+      "abs_shap": 0.067
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 8500000.0,
+      "shap_value": -1.0752,
+      "abs_shap": 1.0752
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -1.019,
+      "abs_shap": 1.019
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2388,
+      "abs_shap": 0.2388
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1128,
+      "abs_shap": 0.1128
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.955576839107596,
+      "shap_value": -0.0835,
+      "abs_shap": 0.0835
+    }
+  ],
+  "movie_id": 1242526,
+  "title": "Sound of Hope: The Story of Possum Trot"
+}

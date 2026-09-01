@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.3834,
+  "predicted_revenue_usd": 35440290.51,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7111,
+      "abs_shap": 0.7111
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2296,
+      "abs_shap": 0.2296
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 18803648.0,
+      "shap_value": -0.1103,
+      "abs_shap": 0.1103
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.0942,
+      "abs_shap": 0.0942
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0839,
+      "abs_shap": 0.0839
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0736,
+      "abs_shap": 0.0736
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 527068851.0,
+      "shap_value": 0.0555,
+      "abs_shap": 0.0555
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0476,
+      "abs_shap": 0.0476
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0419,
+      "abs_shap": 0.0419
+    },
+    {
+      "feature": "runtime",
+      "value": 107.0,
+      "shap_value": 0.0388,
+      "abs_shap": 0.0388
+    },
+    {
+      "feature": "release_month",
+      "value": 3.0,
+      "shap_value": 0.0367,
+      "abs_shap": 0.0367
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0354,
+      "abs_shap": 0.0354
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0301,
+      "abs_shap": 0.0301
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0257,
+      "abs_shap": 0.0257
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.216707972959764,
+      "shap_value": 0.0248,
+      "abs_shap": 0.0248
+    },
+    {
+      "feature": "budget",
+      "value": 30000000.0,
+      "shap_value": 0.0241,
+      "abs_shap": 0.0241
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0225,
+      "abs_shap": 0.0225
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0207,
+      "abs_shap": 0.0207
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": -0.0087,
+      "abs_shap": 0.0087
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0086,
+      "abs_shap": 0.0086
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0081,
+      "abs_shap": 0.0081
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0081,
+      "abs_shap": 0.0081
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0072,
+      "abs_shap": 0.0072
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": 0.0067,
+      "abs_shap": 0.0067
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0067,
+      "abs_shap": 0.0067
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0041,
+      "abs_shap": 0.0041
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0039,
+      "abs_shap": 0.0039
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0025,
+      "abs_shap": 0.0025
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2296,
+      "abs_shap": 0.2296
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0839,
+      "abs_shap": 0.0839
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 527068851.0,
+      "shap_value": 0.0555,
+      "abs_shap": 0.0555
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 1.0,
+      "shap_value": 0.0476,
+      "abs_shap": 0.0476
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0419,
+      "abs_shap": 0.0419
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.7111,
+      "abs_shap": 0.7111
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 18803648.0,
+      "shap_value": -0.1103,
+      "abs_shap": 0.1103
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.0942,
+      "abs_shap": 0.0942
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.0736,
+      "abs_shap": 0.0736
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0301,
+      "abs_shap": 0.0301
+    }
+  ],
+  "movie_id": 555285,
+  "title": "Are You There God? It's Me, Margaret."
+}

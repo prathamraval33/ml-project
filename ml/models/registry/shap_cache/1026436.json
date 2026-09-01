@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 14.8194,
+  "predicted_revenue_usd": 2728821.51,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 4000000.0,
+      "shap_value": -1.4022,
+      "abs_shap": 1.4022
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.863,
+      "abs_shap": 0.863
+    },
+    {
+      "feature": "runtime",
+      "value": 93.0,
+      "shap_value": -0.4669,
+      "abs_shap": 0.4669
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1874,
+      "abs_shap": 0.1874
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1661,
+      "abs_shap": 0.1661
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.156,
+      "abs_shap": 0.156
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.201805169084134,
+      "shap_value": -0.1478,
+      "abs_shap": 0.1478
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 12342632.0,
+      "shap_value": -0.1282,
+      "abs_shap": 0.1282
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 1.0,
+      "shap_value": -0.0799,
+      "abs_shap": 0.0799
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0677,
+      "abs_shap": 0.0677
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0582,
+      "abs_shap": 0.0582
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0428,
+      "abs_shap": 0.0428
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.038,
+      "abs_shap": 0.038
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0276,
+      "abs_shap": 0.0276
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0241,
+      "abs_shap": 0.0241
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.0181,
+      "abs_shap": 0.0181
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0175,
+      "abs_shap": 0.0175
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0164,
+      "abs_shap": 0.0164
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.012,
+      "abs_shap": 0.012
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.011,
+      "abs_shap": 0.011
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": 0.0093,
+      "abs_shap": 0.0093
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0084,
+      "abs_shap": 0.0084
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0065,
+      "abs_shap": 0.0065
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.006,
+      "abs_shap": 0.006
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "release_month",
+      "value": 1.0,
+      "shap_value": 0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.0037,
+      "abs_shap": 0.0037
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0035,
+      "abs_shap": 0.0035
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0016,
+      "abs_shap": 0.0016
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1874,
+      "abs_shap": 0.1874
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.156,
+      "abs_shap": 0.156
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0582,
+      "abs_shap": 0.0582
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.038,
+      "abs_shap": 0.038
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0241,
+      "abs_shap": 0.0241
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 4000000.0,
+      "shap_value": -1.4022,
+      "abs_shap": 1.4022
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.863,
+      "abs_shap": 0.863
+    },
+    {
+      "feature": "runtime",
+      "value": 93.0,
+      "shap_value": -0.4669,
+      "abs_shap": 0.4669
+    },
+    {
+      "feature": "genre_drama",
+      "value": 1.0,
+      "shap_value": -0.1661,
+      "abs_shap": 0.1661
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.201805169084134,
+      "shap_value": -0.1478,
+      "abs_shap": 0.1478
+    }
+  ],
+  "movie_id": 1026436,
+  "title": "Miller's Girl"
+}

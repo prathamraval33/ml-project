@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 14.0926,
+  "predicted_revenue_usd": 1319250.48,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 3000000.0,
+      "shap_value": -1.7072,
+      "abs_shap": 1.7072
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8021,
+      "abs_shap": 0.8021
+    },
+    {
+      "feature": "runtime",
+      "value": 91.0,
+      "shap_value": -0.2945,
+      "abs_shap": 0.2945
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2465,
+      "abs_shap": 0.2465
+    },
+    {
+      "feature": "log_budget",
+      "value": 14.914123179965662,
+      "shap_value": -0.2347,
+      "abs_shap": 0.2347
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1795,
+      "abs_shap": 0.1795
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 4.0,
+      "shap_value": -0.135,
+      "abs_shap": 0.135
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.1333,
+      "abs_shap": 0.1333
+    },
+    {
+      "feature": "genre_romance",
+      "value": 1.0,
+      "shap_value": -0.1148,
+      "abs_shap": 0.1148
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 148520837.90552735,
+      "shap_value": -0.1084,
+      "abs_shap": 0.1084
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0744,
+      "abs_shap": 0.0744
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0712,
+      "abs_shap": 0.0712
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0515,
+      "abs_shap": 0.0515
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.039,
+      "abs_shap": 0.039
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0322,
+      "abs_shap": 0.0322
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0274,
+      "abs_shap": 0.0274
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0267,
+      "abs_shap": 0.0267
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0263,
+      "abs_shap": 0.0263
+    },
+    {
+      "feature": "genre_horror",
+      "value": 1.0,
+      "shap_value": -0.026,
+      "abs_shap": 0.026
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.0247,
+      "abs_shap": 0.0247
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0233,
+      "abs_shap": 0.0233
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0194,
+      "abs_shap": 0.0194
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": -0.019,
+      "abs_shap": 0.019
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0109,
+      "abs_shap": 0.0109
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0083,
+      "abs_shap": 0.0083
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0038,
+      "abs_shap": 0.0038
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": 0.0026,
+      "abs_shap": 0.0026
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": 0.0009,
+      "abs_shap": 0.0009
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": -0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.1795,
+      "abs_shap": 0.1795
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0744,
+      "abs_shap": 0.0744
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0515,
+      "abs_shap": 0.0515
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.039,
+      "abs_shap": 0.039
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0274,
+      "abs_shap": 0.0274
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 3000000.0,
+      "shap_value": -1.7072,
+      "abs_shap": 1.7072
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.8021,
+      "abs_shap": 0.8021
+    },
+    {
+      "feature": "runtime",
+      "value": 91.0,
+      "shap_value": -0.2945,
+      "abs_shap": 0.2945
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.2465,
+      "abs_shap": 0.2465
+    },
+    {
+      "feature": "log_budget",
+      "value": 14.914123179965662,
+      "shap_value": -0.2347,
+      "abs_shap": 0.2347
+    }
+  ],
+  "movie_id": 988402,
+  "title": "Humanist Vampire Seeking Consenting Suicidal Person"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Ridge Regression",
+    "feature_set": "Pre-Release (Clean)",
+    "features_count": 34,
+    "r2_log": 0.4021,
+    "rmse_log": 1.695,
+    "mae_log": 1.1609,
+    "pearson_r": 0.6536,
+    "mdape_percent": 70.86
+  },
+  {
+    "model": "Ridge Regression",
+    "feature_set": "Early-Signal (+Popularity/Votes)",
+    "features_count": 40,
+    "r2_log": 0.292,
+    "rmse_log": 1.8445,
+    "mae_log": 1.3596,
+    "pearson_r": 0.6514,
+    "mdape_percent": 72.18
+  },
+  {
+    "model": "XGBoost",
+    "feature_set": "Pre-Release (Clean)",
+    "features_count": 34,
+    "r2_log": 0.3332,
+    "rmse_log": 1.7901,
+    "mae_log": 1.2518,
+    "pearson_r": 0.607,
+    "mdape_percent": 70.6
+  },
+  {
+    "model": "XGBoost",
+    "feature_set": "Early-Signal (+Popularity/Votes)",
+    "features_count": 40,
+    "r2_log": 0.325,
+    "rmse_log": 1.801,
+    "mae_log": 1.3133,
+    "pearson_r": 0.6595,
+    "mdape_percent": 69.43
+  },
+  {
+    "model": "CatBoost",
+    "feature_set": "Pre-Release (Clean)",
+    "features_count": 34,
+    "r2_log": 0.3943,
+    "rmse_log": 1.7061,
+    "mae_log": 1.2109,
+    "pearson_r": 0.641,
+    "mdape_percent": 69.53
+  },
+  {
+    "model": "CatBoost",
+    "feature_set": "Early-Signal (+Popularity/Votes)",
+    "features_count": 40,
+    "r2_log": 0.4047,
+    "rmse_log": 1.6914,
+    "mae_log": 1.2174,
+    "pearson_r": 0.6939,
+    "mdape_percent": 67.9
+  }
+]

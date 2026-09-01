@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 17.5715,
+  "predicted_revenue_usd": 42775658.58,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.8173,
+      "abs_shap": 0.8173
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 95.0,
+      "shap_value": 0.1916,
+      "abs_shap": 0.1916
+    },
+    {
+      "feature": "runtime",
+      "value": 134.0,
+      "shap_value": 0.1464,
+      "abs_shap": 0.1464
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1396,
+      "abs_shap": 0.1396
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1394,
+      "abs_shap": 0.1394
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 169758442.15789473,
+      "shap_value": 0.1049,
+      "abs_shap": 0.1049
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.1046,
+      "abs_shap": 0.1046
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.0983,
+      "abs_shap": 0.0983
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0947,
+      "abs_shap": 0.0947
+    },
+    {
+      "feature": "production_company_count",
+      "value": 6.0,
+      "shap_value": -0.0657,
+      "abs_shap": 0.0657
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0519,
+      "abs_shap": 0.0519
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0477,
+      "abs_shap": 0.0477
+    },
+    {
+      "feature": "budget",
+      "value": 30000000.0,
+      "shap_value": -0.0442,
+      "abs_shap": 0.0442
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0398,
+      "abs_shap": 0.0398
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 1.0,
+      "shap_value": 0.0381,
+      "abs_shap": 0.0381
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0272,
+      "abs_shap": 0.0272
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0168,
+      "abs_shap": 0.0168
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0161,
+      "abs_shap": 0.0161
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 1.0,
+      "shap_value": -0.013,
+      "abs_shap": 0.013
+    },
+    {
+      "feature": "release_month",
+      "value": 12.0,
+      "shap_value": -0.0117,
+      "abs_shap": 0.0117
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.216707972959764,
+      "shap_value": 0.0102,
+      "abs_shap": 0.0102
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0093,
+      "abs_shap": 0.0093
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": 0.0076,
+      "abs_shap": 0.0076
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0067,
+      "abs_shap": 0.0067
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0064,
+      "abs_shap": 0.0064
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0056,
+      "abs_shap": 0.0056
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.005,
+      "abs_shap": 0.005
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0039,
+      "abs_shap": 0.0039
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0011,
+      "abs_shap": 0.0011
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.0004,
+      "abs_shap": 0.0004
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 95.0,
+      "shap_value": 0.1916,
+      "abs_shap": 0.1916
+    },
+    {
+      "feature": "runtime",
+      "value": 134.0,
+      "shap_value": 0.1464,
+      "abs_shap": 0.1464
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.1396,
+      "abs_shap": 0.1396
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.1394,
+      "abs_shap": 0.1394
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 169758442.15789473,
+      "shap_value": 0.1049,
+      "abs_shap": 0.1049
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.8173,
+      "abs_shap": 0.8173
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.1046,
+      "abs_shap": 0.1046
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.0947,
+      "abs_shap": 0.0947
+    },
+    {
+      "feature": "production_company_count",
+      "value": 6.0,
+      "shap_value": -0.0657,
+      "abs_shap": 0.0657
+    },
+    {
+      "feature": "budget",
+      "value": 30000000.0,
+      "shap_value": -0.0442,
+      "abs_shap": 0.0442
+    }
+  ],
+  "movie_id": 839033,
+  "title": "The Lord of the Rings: The War of the Rohirrim"
+}

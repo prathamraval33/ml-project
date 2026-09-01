@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.0044,
+  "predicted_revenue_usd": 65950028.38,
+  "contributions": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6001,
+      "abs_shap": 0.6001
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2404,
+      "abs_shap": 0.2404
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 145.0,
+      "shap_value": 0.1976,
+      "abs_shap": 0.1976
+    },
+    {
+      "feature": "budget",
+      "value": 30000000.0,
+      "shap_value": -0.1064,
+      "abs_shap": 0.1064
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 167577451.90344828,
+      "shap_value": 0.1054,
+      "abs_shap": 0.1054
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.092,
+      "abs_shap": 0.092
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0708,
+      "abs_shap": 0.0708
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0608,
+      "abs_shap": 0.0608
+    },
+    {
+      "feature": "runtime",
+      "value": 111.0,
+      "shap_value": 0.048,
+      "abs_shap": 0.048
+    },
+    {
+      "feature": "genre_horror",
+      "value": 1.0,
+      "shap_value": 0.0402,
+      "abs_shap": 0.0402
+    },
+    {
+      "feature": "production_country_count",
+      "value": 1.0,
+      "shap_value": 0.0368,
+      "abs_shap": 0.0368
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0368,
+      "abs_shap": 0.0368
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0291,
+      "abs_shap": 0.0291
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 126861008.0,
+      "shap_value": 0.028,
+      "abs_shap": 0.028
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0246,
+      "abs_shap": 0.0246
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 5.0,
+      "shap_value": 0.0228,
+      "abs_shap": 0.0228
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0202,
+      "abs_shap": 0.0202
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0185,
+      "abs_shap": 0.0185
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0185,
+      "abs_shap": 0.0185
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 1.0,
+      "shap_value": -0.0181,
+      "abs_shap": 0.0181
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.008,
+      "abs_shap": 0.008
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.008,
+      "abs_shap": 0.008
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0073,
+      "abs_shap": 0.0073
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0051,
+      "abs_shap": 0.0051
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 0.0,
+      "shap_value": 0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0022,
+      "abs_shap": 0.0022
+    },
+    {
+      "feature": "log_budget",
+      "value": 17.216707972959764,
+      "shap_value": 0.0019,
+      "abs_shap": 0.0019
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0018,
+      "abs_shap": 0.0018
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "release_quarter",
+      "value": 4.0,
+      "shap_value": -0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": -0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0001,
+      "abs_shap": 0.0001
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "release_day_of_week",
+      "value": 2.0,
+      "shap_value": 0.2404,
+      "abs_shap": 0.2404
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 145.0,
+      "shap_value": 0.1976,
+      "abs_shap": 0.1976
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 167577451.90344828,
+      "shap_value": 0.1054,
+      "abs_shap": 0.1054
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.092,
+      "abs_shap": 0.092
+    },
+    {
+      "feature": "production_company_count",
+      "value": 4.0,
+      "shap_value": 0.0708,
+      "abs_shap": 0.0708
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6001,
+      "abs_shap": 0.6001
+    },
+    {
+      "feature": "budget",
+      "value": 30000000.0,
+      "shap_value": -0.1064,
+      "abs_shap": 0.1064
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0246,
+      "abs_shap": 0.0246
+    },
+    {
+      "feature": "release_month",
+      "value": 10.0,
+      "shap_value": -0.0202,
+      "abs_shap": 0.0202
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 0.0,
+      "shap_value": -0.0185,
+      "abs_shap": 0.0185
+    }
+  ],
+  "movie_id": 807172,
+  "title": "The Exorcist: Believer"
+}

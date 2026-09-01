@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 18.6214,
+  "predicted_revenue_usd": 122223828.96,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 75000000.0,
+      "shap_value": 0.9584,
+      "abs_shap": 0.9584
+    },
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6369,
+      "abs_shap": 0.6369
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2318,
+      "abs_shap": 0.2318
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1296,
+      "abs_shap": 0.1296
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.132998684833918,
+      "shap_value": 0.1231,
+      "abs_shap": 0.1231
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.115,
+      "abs_shap": 0.115
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 0.0,
+      "shap_value": 0.1112,
+      "abs_shap": 0.1112
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.0917,
+      "abs_shap": 0.0917
+    },
+    {
+      "feature": "runtime",
+      "value": 100.0,
+      "shap_value": -0.0891,
+      "abs_shap": 0.0891
+    },
+    {
+      "feature": "genre_animation",
+      "value": 1.0,
+      "shap_value": 0.0775,
+      "abs_shap": 0.0775
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 207821482.54263565,
+      "shap_value": 0.0703,
+      "abs_shap": 0.0703
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.0654,
+      "abs_shap": 0.0654
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.0418,
+      "abs_shap": 0.0418
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0382,
+      "abs_shap": 0.0382
+    },
+    {
+      "feature": "release_month",
+      "value": 7.0,
+      "shap_value": 0.0367,
+      "abs_shap": 0.0367
+    },
+    {
+      "feature": "production_company_count",
+      "value": 5.0,
+      "shap_value": 0.028,
+      "abs_shap": 0.028
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 1.0,
+      "shap_value": 0.0262,
+      "abs_shap": 0.0262
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 0.0,
+      "shap_value": -0.0256,
+      "abs_shap": 0.0256
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 148437990.84357384,
+      "shap_value": -0.0235,
+      "abs_shap": 0.0235
+    },
+    {
+      "feature": "genre_crime",
+      "value": 0.0,
+      "shap_value": 0.0211,
+      "abs_shap": 0.0211
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0103,
+      "abs_shap": 0.0103
+    },
+    {
+      "feature": "release_quarter",
+      "value": 3.0,
+      "shap_value": 0.0086,
+      "abs_shap": 0.0086
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0083,
+      "abs_shap": 0.0083
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0073,
+      "abs_shap": 0.0073
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.0042,
+      "abs_shap": 0.0042
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0034,
+      "abs_shap": 0.0034
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0017,
+      "abs_shap": 0.0017
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0014,
+      "abs_shap": 0.0014
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": -0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": 0.001,
+      "abs_shap": 0.001
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0005,
+      "abs_shap": 0.0005
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "budget",
+      "value": 75000000.0,
+      "shap_value": 0.9584,
+      "abs_shap": 0.9584
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 129.0,
+      "shap_value": 0.2318,
+      "abs_shap": 0.2318
+    },
+    {
+      "feature": "is_franchise",
+      "value": 1.0,
+      "shap_value": 0.1296,
+      "abs_shap": 0.1296
+    },
+    {
+      "feature": "log_budget",
+      "value": 18.132998684833918,
+      "shap_value": 0.1231,
+      "abs_shap": 0.1231
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 0.0,
+      "shap_value": 0.1112,
+      "abs_shap": 0.1112
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "release_year",
+      "value": 2023.0,
+      "shap_value": -0.6369,
+      "abs_shap": 0.6369
+    },
+    {
+      "feature": "genre_action",
+      "value": 1.0,
+      "shap_value": -0.115,
+      "abs_shap": 0.115
+    },
+    {
+      "feature": "production_country_count",
+      "value": 3.0,
+      "shap_value": -0.0917,
+      "abs_shap": 0.0917
+    },
+    {
+      "feature": "runtime",
+      "value": 100.0,
+      "shap_value": -0.0891,
+      "abs_shap": 0.0891
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 1.0,
+      "shap_value": -0.0654,
+      "abs_shap": 0.0654
+    }
+  ],
+  "movie_id": 614930,
+  "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem"
+}

@@ -1,0 +1,278 @@
+{
+  "base_value_log": 17.7688,
+  "base_value_usd": 52104140.76,
+  "predicted_log_revenue": 16.2885,
+  "predicted_revenue_usd": 11857545.24,
+  "contributions": [
+    {
+      "feature": "budget",
+      "value": 8000000.0,
+      "shap_value": -1.0204,
+      "abs_shap": 1.0204
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.7547,
+      "abs_shap": 0.7547
+    },
+    {
+      "feature": "runtime",
+      "value": 84.0,
+      "shap_value": -0.3374,
+      "abs_shap": 0.3374
+    },
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 18.0,
+      "shap_value": 0.2515,
+      "abs_shap": 0.2515
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.2077,
+      "abs_shap": 0.2077
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.1458,
+      "abs_shap": 0.1458
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1249,
+      "abs_shap": 0.1249
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.894952224644102,
+      "shap_value": -0.0976,
+      "abs_shap": 0.0976
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 3.0,
+      "shap_value": 0.0968,
+      "abs_shap": 0.0968
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0929,
+      "abs_shap": 0.0929
+    },
+    {
+      "feature": "genre_comedy",
+      "value": 1.0,
+      "shap_value": 0.0913,
+      "abs_shap": 0.0913
+    },
+    {
+      "feature": "director_prior_avg_revenue",
+      "value": 90600000.0,
+      "shap_value": 0.0793,
+      "abs_shap": 0.0793
+    },
+    {
+      "feature": "production_country_count",
+      "value": 2.0,
+      "shap_value": -0.0414,
+      "abs_shap": 0.0414
+    },
+    {
+      "feature": "production_company_count",
+      "value": 2.0,
+      "shap_value": -0.0357,
+      "abs_shap": 0.0357
+    },
+    {
+      "feature": "release_month",
+      "value": 2.0,
+      "shap_value": 0.0353,
+      "abs_shap": 0.0353
+    },
+    {
+      "feature": "is_franchise",
+      "value": 0.0,
+      "shap_value": -0.0238,
+      "abs_shap": 0.0238
+    },
+    {
+      "feature": "genre_science_fiction",
+      "value": 0.0,
+      "shap_value": 0.0176,
+      "abs_shap": 0.0176
+    },
+    {
+      "feature": "is_holiday_release",
+      "value": 0.0,
+      "shap_value": -0.0168,
+      "abs_shap": 0.0168
+    },
+    {
+      "feature": "primary_production_company_prior_avg_revenue",
+      "value": 68161199.5,
+      "shap_value": -0.0136,
+      "abs_shap": 0.0136
+    },
+    {
+      "feature": "genre_horror",
+      "value": 0.0,
+      "shap_value": -0.01,
+      "abs_shap": 0.01
+    },
+    {
+      "feature": "genre_thriller",
+      "value": 0.0,
+      "shap_value": 0.0083,
+      "abs_shap": 0.0083
+    },
+    {
+      "feature": "genre_romance",
+      "value": 0.0,
+      "shap_value": 0.0081,
+      "abs_shap": 0.0081
+    },
+    {
+      "feature": "genre_adventure",
+      "value": 0.0,
+      "shap_value": -0.0065,
+      "abs_shap": 0.0065
+    },
+    {
+      "feature": "genre_history",
+      "value": 0.0,
+      "shap_value": 0.0047,
+      "abs_shap": 0.0047
+    },
+    {
+      "feature": "genre_mystery",
+      "value": 0.0,
+      "shap_value": -0.0031,
+      "abs_shap": 0.0031
+    },
+    {
+      "feature": "genre_fantasy",
+      "value": 0.0,
+      "shap_value": 0.0029,
+      "abs_shap": 0.0029
+    },
+    {
+      "feature": "genre_music",
+      "value": 0.0,
+      "shap_value": 0.0023,
+      "abs_shap": 0.0023
+    },
+    {
+      "feature": "release_quarter",
+      "value": 1.0,
+      "shap_value": 0.002,
+      "abs_shap": 0.002
+    },
+    {
+      "feature": "is_international_coproduction",
+      "value": 1.0,
+      "shap_value": -0.0015,
+      "abs_shap": 0.0015
+    },
+    {
+      "feature": "genre_family",
+      "value": 0.0,
+      "shap_value": -0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_war",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_western",
+      "value": 0.0,
+      "shap_value": 0.0013,
+      "abs_shap": 0.0013
+    },
+    {
+      "feature": "genre_animation",
+      "value": 0.0,
+      "shap_value": -0.0012,
+      "abs_shap": 0.0012
+    },
+    {
+      "feature": "cast_size",
+      "value": 5.0,
+      "shap_value": 0.0,
+      "abs_shap": 0.0
+    }
+  ],
+  "top_positive": [
+    {
+      "feature": "primary_production_company_prior_film_count",
+      "value": 18.0,
+      "shap_value": 0.2515,
+      "abs_shap": 0.2515
+    },
+    {
+      "feature": "release_day_of_week",
+      "value": 3.0,
+      "shap_value": 0.2077,
+      "abs_shap": 0.2077
+    },
+    {
+      "feature": "genre_drama",
+      "value": 0.0,
+      "shap_value": 0.1249,
+      "abs_shap": 0.1249
+    },
+    {
+      "feature": "director_prior_film_count",
+      "value": 3.0,
+      "shap_value": 0.0968,
+      "abs_shap": 0.0968
+    },
+    {
+      "feature": "genre_action",
+      "value": 0.0,
+      "shap_value": 0.0929,
+      "abs_shap": 0.0929
+    }
+  ],
+  "top_negative": [
+    {
+      "feature": "budget",
+      "value": 8000000.0,
+      "shap_value": -1.0204,
+      "abs_shap": 1.0204
+    },
+    {
+      "feature": "release_year",
+      "value": 2024.0,
+      "shap_value": -0.7547,
+      "abs_shap": 0.7547
+    },
+    {
+      "feature": "runtime",
+      "value": 84.0,
+      "shap_value": -0.3374,
+      "abs_shap": 0.3374
+    },
+    {
+      "feature": "genre_crime",
+      "value": 1.0,
+      "shap_value": -0.1458,
+      "abs_shap": 0.1458
+    },
+    {
+      "feature": "log_budget",
+      "value": 15.894952224644102,
+      "shap_value": -0.0976,
+      "abs_shap": 0.0976
+    }
+  ],
+  "movie_id": 957304,
+  "title": "Drive-Away Dolls"
+}
