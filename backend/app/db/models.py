@@ -1,6 +1,6 @@
 """SQLAlchemy ORM models for CineForecast."""
 
-from datetime import datetime
+from datetime import datetime, timezone
 from sqlalchemy import (
     Column,
     DateTime,
@@ -13,6 +13,11 @@ from sqlalchemy import (
 from sqlalchemy.orm import relationship
 
 from backend.app.db.base import Base
+
+
+def get_utc_now() -> datetime:
+    """Return timezone-aware current UTC datetime."""
+    return datetime.now(timezone.utc)
 
 
 class Movie(Base):
@@ -51,8 +56,8 @@ class Movie(Base):
     predicted_tier = Column(String(32), nullable=True)
     split = Column(String(16), default="train")  # train or test
 
-    created_at = Column(DateTime, default=datetime.utcnow)
-    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+    created_at = Column(DateTime, default=get_utc_now)
+    updated_at = Column(DateTime, default=get_utc_now, onupdate=get_utc_now)
 
     predictions = relationship("Prediction", back_populates="movie", cascade="all, delete-orphan")
 
@@ -69,7 +74,7 @@ class Prediction(Base):
     predicted_roi = Column(Float, nullable=True)
     predicted_tier = Column(String(32), nullable=True)
     model_version = Column(String(64), default="xgb_champion_v1")
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=get_utc_now)
 
     movie = relationship("Movie", back_populates="predictions")
 
@@ -88,4 +93,4 @@ class WhatIfSession(Base):
     revenue_delta = Column(Float, nullable=False)
     roi_delta = Column(Float, nullable=False)
     adjustments_json = Column(Text, nullable=False)  # JSON representation of tweaks
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=get_utc_now)

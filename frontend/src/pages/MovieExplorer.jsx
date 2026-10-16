@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Search, Filter, Film, ArrowUpDown, ChevronLeft, ChevronRight, X, Play, Sparkles } from 'lucide-react';
 import { TierBadge } from '../components/ui/TierBadge';
 import { ShapWaterfall } from '../components/charts/ShapWaterfall';
-import { fetchMovies, fetchMovieShap } from '../api/client';
+import { fetchMovies, fetchMovieShap, fetchMovieDetail } from '../api/client';
 import { useUiStore } from '../store/useUiStore';
 
 export const MovieExplorer = () => {
@@ -57,7 +57,13 @@ export const MovieExplorer = () => {
     }
 
     const movie = movies.find((m) => m.id === selectedMovieId);
-    if (movie) setSelectedMovie(movie);
+    if (movie) {
+      setSelectedMovie(movie);
+    } else {
+      fetchMovieDetail(selectedMovieId)
+        .then((detail) => setSelectedMovie(detail))
+        .catch((err) => console.error('Error fetching movie detail:', err));
+    }
 
     const loadShap = async () => {
       try {

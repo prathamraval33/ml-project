@@ -94,7 +94,7 @@ def run_catboost_pipeline() -> Dict[str, Any]:
     cb_cls.fit(X_train, y_train_cls_enc)
 
     test_cls_preds_enc = cb_cls.predict(X_test).ravel()
-    test_cls_preds = label_encoder.inverse_transform(test_cls_preds_enc.astype(int))
+    test_cls_preds = label_encoder.inverse_transform(np.rint(test_cls_preds_enc).astype(int))
 
     cb_cls_metrics = calculate_classification_metrics(y_test_cls.values, test_cls_preds, labels=tier_order, prefix="test")
     logger.info("CatBoost Tier Accuracy: %.4f | Macro F1: %.4f", cb_cls_metrics["test_accuracy"], cb_cls_metrics["test_macro_f1"])

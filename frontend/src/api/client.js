@@ -34,6 +34,11 @@ export const fetchAblationResults = async () => {
   return data;
 };
 
+export const fetchModelMetrics = async () => {
+  const { data } = await api.get('/shap/metrics');
+  return data;
+};
+
 export const fetchMovieShap = async (movieId) => {
   const { data } = await api.get(`/shap/${movieId}`);
   return data;

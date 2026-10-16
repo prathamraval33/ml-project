@@ -33,34 +33,58 @@ class InferenceService:
     def __init__(self):
         self.model_dir = Path(settings.MODEL_REGISTRY_DIR)
         self.manifest_path = Path(settings.PROCESSED_DATA_DIR) / "feature_manifest.json"
+        self.manifest: Dict[str, Any] = {}
+        self.pre_features: List[str] = []
+        self.genre_cols: List[str] = []
+        self.regressor = None
+        self.reg_features: List[str] = []
+        self.classifier = None
+        self.label_encoder = None
+        self.tier_labels: List[str] = []
+        self.shap_service: Optional[ShapExplainerService] = None
 
-        with open(self.manifest_path, "r", encoding="utf-8") as f:
-            self.manifest = json.load(f)
+        self.load_models()
 
-        self.pre_features: List[str] = self.manifest["pre_release_features"]
-        self.genre_cols: List[str] = self.manifest.get("genre_columns", [])
+    def load_models(self) -> bool:
+        """Attempt loading feature manifest and champion models from registry."""
+        try:
+            if self.manifest_path.exists():
+                with open(self.manifest_path, "r", encoding="utf-8") as f:
+                    self.manifest = json.load(f)
+                self.pre_features = self.manifest.get("pre_release_features", [])
+                self.genre_cols = self.manifest.get("genre_columns", [])
 
-        # Load Champion Regressor
-        reg_path = self.model_dir / "xgb_regressor_champion.joblib"
-        if not reg_path.exists():
-            reg_path = self.model_dir / "xgb_regressor_prerelease.joblib"
-        reg_art = joblib.load(reg_path)
-        self.regressor = reg_art["model"]
-        self.reg_features = reg_art["features"]
+            # Load Champion Regressor
+            reg_path = self.model_dir / "xgb_regressor_champion.joblib"
+            if not reg_path.exists():
+                reg_path = self.model_dir / "xgb_regressor_prerelease.joblib"
 
-        # Load Champion Classifier
-        cls_path = self.model_dir / "xgb_classifier_champion.joblib"
-        if not cls_path.exists():
-            cls_path = self.model_dir / "xgb_classifier_tier.joblib"
-        cls_art = joblib.load(cls_path)
-        self.classifier = cls_art["model"]
-        self.label_encoder = cls_art["label_encoder"]
-        self.tier_labels = cls_art["tier_labels"]
+            if reg_path.exists():
+                reg_art = joblib.load(reg_path)
+                self.regressor = reg_art["model"]
+                self.reg_features = reg_art["features"]
+                self.shap_service = ShapExplainerService(model_path=reg_path)
 
-        # Initialize SHAP service
-        self.shap_service = ShapExplainerService(model_path=reg_path)
+            # Load Champion Classifier
+            cls_path = self.model_dir / "xgb_classifier_champion.joblib"
+            if not cls_path.exists():
+                cls_path = self.model_dir / "xgb_classifier_tier.joblib"
 
-        logger.info("InferenceService successfully initialized with %d features.", len(self.reg_features))
+            if cls_path.exists():
+                cls_art = joblib.load(cls_path)
+                self.classifier = cls_art["model"]
+                self.label_encoder = cls_art["label_encoder"]
+                self.tier_labels = cls_art["tier_labels"]
+
+            if self.regressor is not None and self.classifier is not None:
+                logger.info("InferenceService successfully initialized with %d features.", len(self.reg_features))
+                return True
+            else:
+                logger.warning("InferenceService: Models not yet fully trained in registry.")
+                return False
+        except Exception as e:
+            logger.warning("InferenceService initialization warning: %s", e)
+            return False
 
     def _transform_payload_to_features(self, req: PredictRequest) -> Dict[str, Any]:
         """Convert a PredictRequest into the exact feature vector expected by models."""
@@ -118,6 +142,10 @@ class InferenceService:
 
     def predict(self, req: PredictRequest) -> PredictResponse:
         """Run end-to-end inference and SHAP decomposition."""
+        if self.regressor is None or self.classifier is None:
+            if not self.load_models():
+                raise RuntimeError("ML models are not loaded. Please ensure models are trained and present in registry.")
+
         features = self._transform_payload_to_features(req)
         feature_df = pd.DataFrame([[features[f] for f in self.reg_features]], columns=self.reg_features)
 

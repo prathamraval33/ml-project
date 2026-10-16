@@ -51,8 +51,18 @@ def list_movies(
     if split:
         query = query.filter(Movie.split == split)
 
-    # Sorting
-    sort_column = getattr(Movie, sort_by, Movie.revenue)
+    # Whitelisted column sorting
+    allowed_sort_columns = {
+        "revenue": Movie.revenue,
+        "budget": Movie.budget,
+        "roi": Movie.roi,
+        "predicted_revenue": Movie.predicted_revenue,
+        "release_year": Movie.release_year,
+        "title": Movie.title,
+        "popularity": Movie.popularity,
+        "vote_average": Movie.vote_average,
+    }
+    sort_column = allowed_sort_columns.get(sort_by, Movie.revenue)
     if order.lower() == "asc":
         query = query.order_by(sort_column.asc())
     else:

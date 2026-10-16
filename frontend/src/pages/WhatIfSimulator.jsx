@@ -81,9 +81,16 @@ export const WhatIfSimulator = () => {
     const executeSimulation = async () => {
       try {
         setLoading(true);
+        // Calculate sparse adjustments diff against baseline
+        const diffAdjustments = {};
+        for (const [k, v] of Object.entries(modifiedParams)) {
+          if (JSON.stringify(v) !== JSON.stringify(baseParams[k])) {
+            diffAdjustments[k] = v;
+          }
+        }
         const res = await runWhatIfSimulation({
           base_params: baseParams,
-          adjustments: modifiedParams,
+          adjustments: Object.keys(diffAdjustments).length > 0 ? diffAdjustments : modifiedParams,
         });
         setSimulationResult(res);
       } catch (err) {

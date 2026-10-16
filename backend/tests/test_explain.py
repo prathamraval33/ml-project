@@ -22,3 +22,15 @@ def test_get_ablation_results(client: TestClient):
     data = response.json()
     assert isinstance(data, list)
     assert len(data) >= 6
+
+
+def test_get_champion_metrics(client: TestClient):
+    """Test retrieving champion model evaluation metrics."""
+    response = client.get("/api/shap/metrics")
+    assert response.status_code == 200
+    data = response.json()
+    assert "r2_log" in data
+    assert "pearson_r" in data
+    assert "rmse_log" in data
+    assert data["pearson_r"] > 0
+

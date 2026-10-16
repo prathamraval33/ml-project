@@ -29,3 +29,17 @@ def test_get_movie_not_found(client: TestClient):
     """Test requesting non-existent movie ID."""
     response = client.get("/api/movies/99999999")
     assert response.status_code == 404
+
+
+def test_sort_movies_safety(client: TestClient):
+    """Test sorting with valid and invalid sort keys defaults safely."""
+    # Valid sort
+    res_valid = client.get("/api/movies?sort_by=budget&order=desc&size=5")
+    assert res_valid.status_code == 200
+    assert len(res_valid.json()["items"]) == 5
+
+    # Invalid / probing sort key safely defaults to revenue without throwing ORM error
+    res_invalid = client.get("/api/movies?sort_by=__tablename__&order=desc&size=5")
+    assert res_invalid.status_code == 200
+    assert len(res_invalid.json()["items"]) == 5
+

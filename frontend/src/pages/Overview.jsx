@@ -3,12 +3,13 @@ import { DollarSign, BarChart3, TrendingUp, Target, Award, Sparkles, Activity } 
 import { StatCard } from '../components/ui/StatCard';
 import { TierBadge } from '../components/ui/TierBadge';
 import { PredictedVsActualScatter } from '../components/charts/PredictedVsActualScatter';
-import { fetchMovies, fetchTrends } from '../api/client';
+import { fetchMovies, fetchTrends, fetchModelMetrics } from '../api/client';
 import { useUiStore } from '../store/useUiStore';
 
 export const Overview = () => {
   const [trends, setTrends] = useState(null);
   const [sampleMovies, setSampleMovies] = useState([]);
+  const [modelMetrics, setModelMetrics] = useState(null);
   const [loading, setLoading] = useState(true);
   const { setActiveTab, setSelectedMovieId } = useUiStore();
 
@@ -16,12 +17,14 @@ export const Overview = () => {
     const loadOverviewData = async () => {
       try {
         setLoading(true);
-        const [trendsData, moviesData] = await Promise.all([
+        const [trendsData, moviesData, metricsData] = await Promise.all([
           fetchTrends(),
           fetchMovies({ size: 80, sort_by: 'revenue', order: 'desc' }),
+          fetchModelMetrics().catch(() => ({ r2_log: 0.38, pearson_r: 0.63 })),
         ]);
         setTrends(trendsData);
         setSampleMovies(moviesData.items || []);
+        setModelMetrics(metricsData);
       } catch (err) {
         console.error('Failed loading overview data:', err);
       } finally {
@@ -91,8 +94,8 @@ export const Overview = () => {
         />
         <StatCard
           label="Model R² Score (Log USD)"
-          value="0.63"
-          subtext="Champion Pearson R: 0.63"
+          value={modelMetrics?.r2_log !== undefined ? modelMetrics.r2_log.toFixed(2) : "0.38"}
+          subtext={`Champion Pearson R: ${modelMetrics?.pearson_r !== undefined ? modelMetrics.pearson_r.toFixed(2) : "0.63"}`}
           icon={Target}
           accent="iris"
         />

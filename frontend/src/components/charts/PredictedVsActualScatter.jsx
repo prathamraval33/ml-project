@@ -12,21 +12,21 @@ import {
 } from 'recharts';
 
 export const PredictedVsActualScatter = ({ movies = [] }) => {
+  const safeMovies = Array.isArray(movies) ? movies : [];
   // Format data for chart (convert USD to Millions for clean readable axes)
-  const data = movies
-    .filter((m) => m.revenue > 0 && m.predicted_revenue > 0)
+  const data = safeMovies
+    .filter((m) => m && m.revenue > 0 && m.predicted_revenue > 0)
     .map((m) => ({
-      title: m.title,
+      title: m.title || 'Untitled',
       actualM: +(m.revenue / 1_000_000).toFixed(2),
       predictedM: +(m.predicted_revenue / 1_000_000).toFixed(2),
-      tier: m.success_tier,
+      tier: m.success_tier || 'Hit',
       budgetM: +(m.budget / 1_000_000).toFixed(2),
     }));
 
-  const maxVal = Math.max(
-    ...data.map((d) => Math.max(d.actualM, d.predictedM)),
-    100
-  );
+  const maxVal = data.length > 0
+    ? Math.max(...data.map((d) => Math.max(d.actualM, d.predictedM)), 100)
+    : 100;
 
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
